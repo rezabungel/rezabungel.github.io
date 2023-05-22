@@ -1,0 +1,124 @@
+/* @import url(../fonts/Unknown/unknown.css); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font: 400 24px "unknown", sans-serif;  */
+    font: 400 24px sans-serif;
+
+    /* Потом уберу */
+    /* max-height: 3000px; */
+}
+
+.content {
+    max-width: 1296px;
+    margin: 0 auto;
+
+    /* Для позиционирования head */
+    position: relative;
+}
+
+header {
+    background: #B59F7F;
+
+    padding-bottom: 48px;
+}
+
+main {
+    background: #F2DBAD;
+
+    /* Потом уберу */
+    min-height: 1000px;
+}
+
+footer {
+    background: #B59F7F;
+
+    /* Потом уберу */
+    min-height: 1000px;
+}
+
+/* Заголовок */
+
+nav {
+    /* Размер лога + отступ сверху 89+23=112 */
+    height: 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+nav a {
+    font-size: 28px;
+    color: #FFFFFF;
+
+    /* Выключаем подсветку ссылки */
+    text-decoration: none;
+
+    background: #605545;
+    line-height: 64px;
+    width: 196px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.head {
+    font-size: 22px;
+    line-height: 48px;
+    color: #000000;
+
+    position: absolute;
+    left: 880px;
+    top: 0px;
+
+    display: flex;
+    justify-content: space-between;
+    width: 416px;
+}
+
+.head__number {
+    text-align: center;
+    width: 197px;
+}
+
+.head__enter ul {
+    list-style: none;
+}
+
+.head__enter li {
+    position: relative;
+
+    /* Талкаюсь справа, чтобы войти было посеридине над кнопкой "О нас" */
+    padding-right: 52px;
+
+    /* 32 = 16(размер шарика)+16(расстояние от него) */
+    padding-left: 32px;
+}
+
+.head__enter li a {
+    color: #000000;
+
+    /* Выключаем подсветку ссылки */
+    text-decoration: none;
+}
+
+.head__enter li::before {
+    /* Обязательное свойство для псевдоэлемента */
+    content: "";
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: url(../images/ball_enter.png);
+
+    /* Элемент станет по центру */
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+/* ********* */
