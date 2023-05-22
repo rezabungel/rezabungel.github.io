@@ -30,6 +30,8 @@ header {
 
 main {
     background: #F2DBAD;
+    padding-top: 72px;
+    padding-bottom: 88px;
 
     /* Потом уберу */
     min-height: 1000px;
@@ -122,3 +124,107 @@ nav a {
 }
 
 /* ********* */
+
+/* Основная часть */
+
+.mesh {
+    display: grid;
+
+    grid-template-columns: 416px repeat(2, 306px);
+    grid-template-rows: repeat(3, 472px);
+
+    justify-content: space-between;
+
+    /* Расстояние между ячейками по вертикали */
+    grid-row-gap: 64px;
+}
+
+[class^="mesh__item"] {
+    background: #B59F7F;
+    border-radius: 20px;
+}
+
+.mesh__item3 {
+    margin-left: 110px;
+}
+
+.mesh__item6 {
+    margin-left: 110px;
+}
+
+/* Иноформация о доставке (в основной части) */
+
+.delivery {
+    color: #FFFFFF;
+    text-align: center;
+
+    padding-bottom: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 472px;
+
+}
+
+.delivery__name {
+    font-size: 56px;
+}
+
+.delivery__time {
+    font-size: 28px;
+}
+
+.delivery__discount {
+    font-size: 26px;
+}
+
+.delivery__data {
+    font-size: 26px;
+}
+
+.delivery__telephone {
+    font-size: 20px;
+}
+
+.delivery_min {
+    font-size: 20px;
+}
+
+/* ----------------------------------------- */
+
+/* Информация о блюдах (в основной части) */
+
+.food {
+    font-size: 40px;
+    color: #000000;
+
+    margin-top: 32px;
+    margin-left: 22px;
+    margin-right: 17px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 408px;
+}
+
+.food a {
+    font-size: 36px;
+    color: #FFFFFF;
+
+    /* Выключаем подсветку ссылки */
+    text-decoration: none;
+
+    background: #605545;
+    line-height: 80px;
+    width: 267px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* -------------------------------------- */
+
+/* ************** */
