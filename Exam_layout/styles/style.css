@@ -9,9 +9,6 @@
 body {
     /* font: 400 24px "unknown", sans-serif;  */
     font: 400 24px sans-serif;
-
-    /* Потом уберу */
-    /* max-height: 3000px; */
 }
 
 .content {
@@ -32,16 +29,12 @@ main {
     background: #F2DBAD;
     padding-top: 72px;
     padding-bottom: 88px;
-
-    /* Потом уберу */
-    min-height: 1000px;
 }
 
 footer {
     background: #B59F7F;
 
-    /* Потом уберу */
-    min-height: 1000px;
+    padding: 28px 0 28px 0;
 }
 
 /* Заголовок */
@@ -228,3 +221,52 @@ nav a {
 /* -------------------------------------- */
 
 /* ************** */
+
+/* Подвал */
+
+.footer {
+    font-size: 28px;
+    color: #000000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* align-items: end; */
+}
+
+.footer__logo {
+    flex-basis: 416px;
+}
+
+.footer__address {
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+/* С помощью псевдоклассов выбираем первую ссылку в "footer__info" */
+.footer__info a:first-of-type {
+    margin-top: 23px;
+    margin-bottom: 18px;
+
+    display: block;
+    font-size: 40px;
+    color: #FFFFFF;
+
+    /* Выключаем подсветку ссылки */
+    text-decoration: none;
+
+    background: #605545;
+    line-height: 64px;
+    width: 306px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* С помощью псевдоклассов выбираем все, кроме первой и последний ссылки-картинки в "footer__info" */
+.footer__info a:not(:first-of-type):not(:last-of-type) {
+    float: left;
+    display: inline;
+    padding-right: 16px;
+}
+
+/* ****** */
