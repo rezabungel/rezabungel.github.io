@@ -1,4 +1,4 @@
-/* @import url(../fonts/Unknown/unknown.css); */
+@import url(../fonts/Roboto/Roboto.css);
 
 * {
     margin: 0;
@@ -7,8 +7,15 @@
 }
 
 body {
-    /* font: 400 24px "unknown", sans-serif;  */
-    font: 400 24px sans-serif;
+    font: 400 24px "Roboto", sans-serif;
+}
+
+/* Медиа-запрос, который активируется только при ширине экрана до 1030 пикселей */
+@media screen and (max-width: 1030px) {
+    body {
+        font: 400 24px "Roboto", sans-serif;
+        width: 1296px;
+    }
 }
 
 .content {
@@ -149,40 +156,43 @@ nav a {
 
 .delivery {
     color: #FFFFFF;
-    text-align: center;
 
-    padding-bottom: 10px;
+    padding-bottom: 16px;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     height: 472px;
-
 }
 
 .delivery__name {
     font-size: 56px;
+    padding-left: 71px;
 }
 
 .delivery__time {
     font-size: 28px;
+    padding-left: 24px;
 }
 
 .delivery__discount {
     font-size: 26px;
+    padding-left: 24px;
 }
 
 .delivery__data {
     font-size: 26px;
+    padding-left: 49px;
 }
 
 .delivery__telephone {
     font-size: 20px;
+    padding-left: 24px;
 }
 
 .delivery_min {
     font-size: 20px;
+    padding-left: 24px;
 }
 
 /* ----------------------------------------- */
@@ -231,7 +241,6 @@ nav a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* align-items: end; */
 }
 
 .footer__logo {
@@ -240,7 +249,7 @@ nav a {
 
 .footer__address {
     padding-top: 20px;
-    padding-bottom: 35px;
+    padding-bottom: 50px;
 }
 
 /* С помощью псевдоклассов выбираем первую ссылку в "footer__info" */
