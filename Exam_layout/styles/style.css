@@ -66,6 +66,7 @@ nav a {
     width: 196px;
     text-align: center;
     border-radius: 20px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.1);
 }
 
 .head {
@@ -142,6 +143,7 @@ nav a {
 [class^="mesh__item"] {
     background: #B59F7F;
     border-radius: 20px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.1);
 }
 
 .mesh__item3 {
@@ -226,6 +228,7 @@ nav a {
     width: 267px;
     text-align: center;
     border-radius: 20px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* -------------------------------------- */
@@ -269,6 +272,7 @@ nav a {
     width: 306px;
     text-align: center;
     border-radius: 20px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* С помощью псевдоклассов выбираем все, кроме первой и последний ссылки-картинки в "footer__info" */
@@ -276,6 +280,11 @@ nav a {
     float: left;
     display: inline;
     padding-right: 16px;
+}
+
+.footer__info a img {
+    border-radius: 20px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* ****** */
