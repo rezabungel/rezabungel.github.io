@@ -6,16 +6,13 @@
     box-sizing: border-box;
 }
 
-body {
-    font: 400 24px "Roboto", sans-serif;
+:root {
+    --style_shadow: 8px 8px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Медиа-запрос, который активируется только при ширине экрана до 1030 пикселей */
-@media screen and (max-width: 1030px) {
-    body {
-        font: 400 24px "Roboto", sans-serif;
-        width: 1296px;
-    }
+html,
+body {
+    font: 400 24px "Roboto", sans-serif;
 }
 
 .content {
@@ -66,7 +63,7 @@ nav a {
     width: 196px;
     text-align: center;
     border-radius: 20px;
-    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--style_shadow);
 }
 
 .head {
@@ -143,7 +140,7 @@ nav a {
 [class^="mesh__item"] {
     background: #B59F7F;
     border-radius: 20px;
-    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--style_shadow);
 }
 
 .mesh__item3 {
@@ -228,7 +225,7 @@ nav a {
     width: 267px;
     text-align: center;
     border-radius: 20px;
-    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--style_shadow);
 }
 
 /* -------------------------------------- */
@@ -272,19 +269,29 @@ nav a {
     width: 306px;
     text-align: center;
     border-radius: 20px;
-    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--style_shadow);
 }
 
 /* С помощью псевдоклассов выбираем все, кроме первой и последний ссылки-картинки в "footer__info" */
 .footer__info a:not(:first-of-type):not(:last-of-type) {
     float: left;
-    display: inline;
-    padding-right: 16px;
+    margin-right: 16.67px;
 }
 
 .footer__info a img {
     border-radius: 20px;
-    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--style_shadow);
 }
 
-/* ****** */
+/* **************************************************************************** */
+/* Медиа-запрос, который активируется только при ширине экрана до 1030 пикселей */
+/* Переопределяем только те свойства, которые нужно изменить. */
+/* **************************************************************************** */
+
+@media screen and (max-width: 1030px) {
+
+    html,
+    body {
+        width: 1296px;
+    }
+}
