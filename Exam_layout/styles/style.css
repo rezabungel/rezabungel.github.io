@@ -25,24 +25,15 @@ body {
     position: relative;
 }
 
-header {
+/* **************************************** */
+/* Шапка */
+.header {
     background: #B59F7F;
     padding-bottom: 2rem;
 }
 
-main {
-    background: #F2DBAD;
-    padding: 3rem 0 3.5rem 0;
-}
-
-footer {
-    background: #B59F7F;
-    padding: 1rem 0 1rem 0;
-}
-
-/* Заголовок */
-
-nav {
+/* Основное меню */
+.navigation {
     /* Размер лога + отступ сверху 89+23=112px/24px=4.6666666667rem */
     height: 4.6666666667rem;
     display: flex;
@@ -50,11 +41,11 @@ nav {
     align-items: end;
 }
 
-nav img {
+.navigation__logo {
     flex-basis: 8.1666666667rem;
 }
 
-nav a {
+.navigation__element {
     font-size: 1.1666666667rem;
     color: #FFFFFF;
 
@@ -69,6 +60,7 @@ nav a {
     box-shadow: var(--style_shadow);
 }
 
+/* Телефон + Войти */
 .head {
     font-size: 0.9166666667rem;
     line-height: 2rem;
@@ -79,35 +71,25 @@ nav a {
     top: 0;
 
     display: flex;
-    /* justify-content: space-between; */
     width: 17.3333333333rem;
 }
 
 .head__number {
-    /* text-align: center; */
     width: 8.2083333333rem;
     padding: 0.04166666667rem 0 0 0.375rem;
 }
 
-.head__enter ul {
-    list-style: none;
-    margin-left: 3.04166666667rem;
-
-}
-
-.head__enter li {
+.head__enter {
     position: relative;
+    margin-left: 3.04166666667rem;
     padding: 0.04166666667rem 0 0 1.375rem;
-}
-
-.head__enter li a {
     color: #000000;
 
     /* Выключаем подсветку ссылки */
     text-decoration: none;
 }
 
-.head__enter li::before {
+.head__enter::before {
     /* Обязательное свойство для псевдоэлемента */
     content: "";
     display: block;
@@ -123,9 +105,12 @@ nav a {
     left: 0;
 }
 
-/* ********* */
-
+/* **************************************** */
 /* Основная часть */
+.main {
+    background: #F2DBAD;
+    padding: 3rem 0 3.5rem 0;
+}
 
 .mesh {
     display: grid;
@@ -139,26 +124,19 @@ nav a {
     grid-row-gap: 2.6666666667rem;
 }
 
-[class^="mesh__item"] {
+.mesh__item {
     background: #B59F7F;
     border-radius: var(--size_border_radius);
     box-shadow: var(--style_shadow);
 }
 
-.mesh__item3 {
-    margin-left: 4.5833333333rem;
-}
-
-.mesh__item6 {
+.mesh__item--change-size {
     margin-left: 4.5833333333rem;
 }
 
 /* Иноформация о доставке (в основной части) */
-
 .delivery {
     color: #FFFFFF;
-
-    /* padding-bottom: 0.6666666667rem; */
 
     display: flex;
     flex-direction: column;
@@ -191,15 +169,14 @@ nav a {
     padding: 0.1666666667rem 0 0 1rem;
 }
 
-.delivery_min {
+.delivery__min {
     font-size: 0.8333333333rem;
     padding: 0 0 0.625rem 1rem;
 }
 
-/* ----------------------------------------- */
+/* ---------------------------------------- */
 
 /* Информация о блюдах (в основной части) */
-
 .food {
     font-size: 1.6666666667rem;
     color: #000000;
@@ -213,12 +190,12 @@ nav a {
     height: 17rem;
 }
 
-.food img {
+.food__image {
     width: 11.08333333333rem;
     height: 8.3333333333rem;
 }
 
-.food a {
+.food__buy {
     font-size: 1.5rem;
     color: #FFFFFF;
 
@@ -235,11 +212,14 @@ nav a {
 
 /* -------------------------------------- */
 
-/* ************** */
-
+/* **************************************** */
 /* Подвал */
-
 .footer {
+    background: #B59F7F;
+    padding: 1rem 0 1rem 0;
+}
+
+.site-footer {
     font-size: 1.1666666667rem;
     color: #000000;
 
@@ -247,20 +227,19 @@ nav a {
     justify-content: space-between;
 }
 
-.footer__logo {
+.site-footer__logo {
     flex-basis: 17.3333333333rem;
 }
 
-.footer__address {
+.site-footer__address {
     padding-top: 0.9583333333rem;
 }
 
-.footer__telephone {
+.site-footer__telephone {
     padding: 1.9583333333rem 0 0 0.04166666667rem;
 }
 
-/* С помощью псевдоклассов выбираем первую ссылку в "footer__info" */
-.footer__info a:first-of-type {
+.site-footer__link-about {
     margin: 0.9583333333rem 0 0.75rem 0;
 
     display: block;
@@ -278,13 +257,13 @@ nav a {
     box-shadow: var(--style_shadow);
 }
 
-/* С помощью псевдоклассов выбираем все, кроме первой и последний ссылки-картинки в "footer__info" */
-.footer__info a:not(:first-of-type):not(:last-of-type) {
+/* С помощью псевдоклассов выбираем все, кроме последний ссылки-картинки в "site-footer__link-social" */
+.site-footer__link-social:not(:last-of-type) {
     float: left;
     margin-right: 0.6945833333rem;
 }
 
-.footer__info a img {
+.site-footer__social-image {
     width: 2.6666666667rem;
     height: 2.6666666667rem;
     border-radius: var(--size_border_radius);
