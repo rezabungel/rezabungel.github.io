@@ -56,6 +56,10 @@ body {
   width: 8.2083333333rem;
   padding: 0.0416666667rem 0 0 0.375rem;
 }
+.head__number-link {
+  color: #000000;
+  text-decoration: none;
+}
 .head__enter {
   position: relative;
   margin-left: 3.0416666667rem;
@@ -174,6 +178,10 @@ body {
 }
 .site-footer__telephone {
   padding: 1.9583333333rem 0 0 0.0416666667rem;
+}
+.site-footer__telephone-number-link {
+  color: #000000;
+  text-decoration: none;
 }
 .site-footer__link-about {
   margin: 0.9583333333rem 0 0.75rem 0;
