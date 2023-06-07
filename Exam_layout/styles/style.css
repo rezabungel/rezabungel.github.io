@@ -40,6 +40,17 @@ body {
   text-align: center;
   border-radius: 0.8333333333rem;
   box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1);
+  transition: text-shadow 0.15s ease, transform 0.15s ease;
+  text-shadow: none;
+  transform: scale(1, 1);
+}
+.navigation__element:hover {
+  transition: text-shadow 0.15s ease, transform 0.15s ease;
+  text-shadow: 0 -0.0416666667rem rgba(0, 0, 0, 0.3), 0 0 0.1666666667rem rgba(255, 255, 255, 0.6);
+  transform: scale(1.03, 1.03);
+}
+.navigation__element:active {
+  box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1), 0 0 0.2916666667rem rgba(0, 0, 0, 0.3);
 }
 
 .head {
@@ -95,7 +106,14 @@ body {
 .mesh__item {
   background: #B59F7F;
   border-radius: 0.8333333333rem;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
   box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1);
+  transform: scale(1, 1);
+}
+.mesh__item:hover {
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+  box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1), 0 0 0.2916666667rem rgba(0, 0, 0, 0.3);
+  transform: scale(1.03, 1.03);
 }
 .mesh__item--change-size {
   margin-left: 4.5833333333rem;
@@ -132,6 +150,16 @@ body {
   font-size: 0.8333333333rem;
   padding: 0 0 0.625rem 1rem;
 }
+.delivery__name, .delivery__time, .delivery__discount, .delivery__data, .delivery__telephone, .delivery__min {
+  transition: text-shadow 5s ease, transform 0.15s ease;
+  text-shadow: none;
+  transform: scale(1, 1);
+}
+.delivery__name:hover, .delivery__time:hover, .delivery__discount:hover, .delivery__data:hover, .delivery__telephone:hover, .delivery__min:hover {
+  transition: text-shadow 0.15s ease, transform 0.15s ease;
+  text-shadow: 0 -0.0416666667rem rgba(0, 0, 0, 0.3), 0 0 0.1666666667rem rgba(255, 255, 255, 0.6);
+  transform: scale(1.05, 1.05);
+}
 
 .food {
   font-size: 1.6666666667rem;
@@ -146,6 +174,12 @@ body {
 .food__image {
   width: 11.0833333333rem;
   height: 8.3333333333rem;
+  transition: transform 0.15s ease;
+  transform: scale(1, 1);
+}
+.food__image:active {
+  transition: transform 0.15s ease;
+  transform: scale(1.3, 1.3);
 }
 .food__buy {
   font-size: 1.5rem;
@@ -157,6 +191,15 @@ body {
   text-align: center;
   border-radius: 0.8333333333rem;
   box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1);
+  transition: text-shadow 0.15s ease;
+  text-shadow: none;
+}
+.food__buy:hover {
+  transition: text-shadow 0.15s ease;
+  text-shadow: 0 -0.0416666667rem rgba(0, 0, 0, 0.3), 0 0 0.1666666667rem rgba(255, 255, 255, 0.6);
+}
+.food__buy:active {
+  box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1), 0 0 0.2916666667rem rgba(0, 0, 0, 0.3);
 }
 
 .footer {
@@ -195,6 +238,17 @@ body {
   text-align: center;
   border-radius: 0.8333333333rem;
   box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1);
+  transition: text-shadow 0.15s ease, transform 0.15s ease;
+  text-shadow: none;
+  transform: scale(1, 1);
+}
+.site-footer__link-about:hover {
+  transition: text-shadow 0.15s ease, transform 0.15s ease;
+  text-shadow: 0 -0.0416666667rem rgba(0, 0, 0, 0.3), 0 0 0.1666666667rem rgba(255, 255, 255, 0.6);
+  transform: scale(1.03, 1.03);
+}
+.site-footer__link-about:active {
+  box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1), 0 0 0.2916666667rem rgba(0, 0, 0, 0.3);
 }
 .site-footer__link-social:not(:last-of-type) {
   float: left;
@@ -204,7 +258,14 @@ body {
   width: 2.6666666667rem;
   height: 2.6666666667rem;
   border-radius: 0.8333333333rem;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
   box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1);
+  transform: scale(1, 1);
+}
+.site-footer__social-image:hover {
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+  box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1), 0 0 0.2916666667rem rgba(0, 0, 0, 0.3);
+  transform: scale(1.03, 1.03);
 }
 
 @media screen and (max-width: 1030px) {
