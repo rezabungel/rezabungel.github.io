@@ -28,6 +28,7 @@ body {
   align-items: end;
 }
 .navigation__logo {
+  width: 8.1666666667rem;
   flex-basis: 8.1666666667rem;
 }
 .navigation__element {
@@ -214,6 +215,7 @@ body {
   justify-content: space-between;
 }
 .site-footer__logo {
+  width: 17.3333333333rem;
   flex-basis: 17.3333333333rem;
 }
 .site-footer__address {
@@ -272,5 +274,11 @@ body {
   html,
   body {
     width: 54rem;
+  }
+}
+@media screen and (min-height: 2100px) {
+  html,
+  body {
+    font: 400 36px "Roboto", sans-serif;
   }
 }
