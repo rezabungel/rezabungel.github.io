@@ -18,7 +18,9 @@ $transition-transform_pseudo-class: transform 0.15s ease;
 $back_to_scale: scale(1, 1);
 $go_to_scale: scale(1.03, 1.03);
 
-* {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,7 +28,7 @@ $go_to_scale: scale(1.03, 1.03);
 
 html,
 body {
-    font: 400 24px "Roboto", sans-serif;
+    font: 400 1.5rem "Roboto", sans-serif;
 }
 
 .content {
@@ -45,17 +47,25 @@ body {
 
 // Основное меню
 .navigation {
-    height: 4.6666666667rem; // Размер лога + отступ сверху 89+23=112px/24px=4.6666666667rem
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
+
+    &__list {
+        list-style: none;
+        height: 4.6666666667rem; // Размер лога + отступ сверху 89+23=112px/24px=4.6666666667rem
+
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
 
     &__logo {
         width: 8.1666666667rem;
         flex-basis: 8.1666666667rem;
     }
 
-    &__element {
+    &__element {}
+
+    &__link {
+        display: inline-block;
         font-size: 1.1666666667rem;
         color: #FFFFFF;
 
@@ -73,13 +83,13 @@ body {
         transform: $back_to_scale;
     }
 
-    &__element:hover {
+    &__link:hover {
         transition: $transition-text-shadow_pseudo-class, $transition-transform_pseudo-class;
         text-shadow: $text-shadow_pseudo-class;
         transform: $go_to_scale;
     }
 
-    &__element:active {
+    &__link:active {
         box-shadow: $box-shadow_pseudo-class;
     }
 
@@ -397,6 +407,6 @@ body {
 
     html,
     body {
-        font: 400 36px "Roboto", sans-serif;
+        font: 400 2.25rem "Roboto", sans-serif;
     }
 }

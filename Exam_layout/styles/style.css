@@ -1,5 +1,7 @@
 @import url(../fonts/Roboto/Roboto.css);
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,7 +9,7 @@
 
 html,
 body {
-  font: 400 24px "Roboto", sans-serif;
+  font: 400 1.5rem "Roboto", sans-serif;
 }
 
 .content {
@@ -21,7 +23,8 @@ body {
   padding-bottom: 2rem;
 }
 
-.navigation {
+.navigation__list {
+  list-style: none;
   height: 4.6666666667rem;
   display: flex;
   justify-content: space-between;
@@ -31,7 +34,8 @@ body {
   width: 8.1666666667rem;
   flex-basis: 8.1666666667rem;
 }
-.navigation__element {
+.navigation__link {
+  display: inline-block;
   font-size: 1.1666666667rem;
   color: #FFFFFF;
   text-decoration: none;
@@ -45,12 +49,12 @@ body {
   text-shadow: none;
   transform: scale(1, 1);
 }
-.navigation__element:hover {
+.navigation__link:hover {
   transition: text-shadow 0.15s ease, transform 0.15s ease;
   text-shadow: 0 -0.0416666667rem rgba(0, 0, 0, 0.3), 0 0 0.1666666667rem rgba(255, 255, 255, 0.6);
   transform: scale(1.03, 1.03);
 }
-.navigation__element:active {
+.navigation__link:active {
   box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1), 0 0 0.2916666667rem rgba(0, 0, 0, 0.3);
 }
 
@@ -279,6 +283,6 @@ body {
 @media screen and (min-height: 2100px) {
   html,
   body {
-    font: 400 36px "Roboto", sans-serif;
+    font: 400 2.25rem "Roboto", sans-serif;
   }
 }
