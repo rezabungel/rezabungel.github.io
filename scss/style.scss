@@ -1,0 +1,28 @@
+@import url(../fonts/Roboto/Roboto.css);
+
+// bg - background
+$bg_main: #D5BDAF;
+$bg_block: #F2DBAD;
+$bg_block_el: $bg_main;
+
+// br - border-radius
+$br_block: 1rem;
+$br_block_el: 0.625rem;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font: 400 1rem "Roboto", sans-serif;
+}
+
+.content {
+    max-width: 81rem;
+    margin: 0 auto;
+}
