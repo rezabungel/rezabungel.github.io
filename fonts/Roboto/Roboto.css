@@ -6,6 +6,6 @@
 
 @font-face {
     font-family: "Roboto";
-    src: local(""), url("./Roboto-Regular-Bold.ttf") format("truetype");
+    src: local(""), url("./Roboto-Bold.ttf") format("truetype");
     font-weight: 700;
 }

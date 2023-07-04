@@ -2,12 +2,15 @@
 
 // bg - background
 $bg_main: #D5BDAF;
-$bg_block: #F2DBAD;
+$bg_block: #E3D5CA;
 $bg_block_el: $bg_main;
+
+$color_link: #C1121F;
 
 // br - border-radius
 $br_block: 1rem;
 $br_block_el: 0.625rem;
+
 
 *,
 *::before,
@@ -22,7 +25,179 @@ body {
     font: 400 1rem "Roboto", sans-serif;
 }
 
+.wrapper {
+    padding-top: 24px;
+    background: $bg_main;
+}
+
 .content {
     max-width: 81rem;
     margin: 0 auto;
+}
+
+.title {
+    font: 400 24px "Roboto", sans-serif;
+    padding: 16px 0 16px 0;
+    text-align: center;
+}
+
+// ********************
+
+.container {
+    display: grid;
+    grid-template-columns: 416px 856px;
+    grid-template-rows: 384px 204px 184px;
+    grid-template-areas:
+        "info projects"
+        "about-me projects"
+        "contact projects";
+    gap: 24px;
+}
+
+.info {
+    grid-area: info;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    &__photo {
+        width: 242px;
+        height: 242px;
+    }
+
+    &__name {
+        font: 400 32px "Roboto", sans-serif;
+    }
+
+    &__link {
+        display: flex;
+        justify-content: space-between;
+        width: 280px;
+    }
+
+    &__link-social {
+        margin-bottom: -5px;
+    }
+
+    &__social-image {
+        width: 56px;
+        height: 56px;
+    }
+}
+
+
+.about-me {
+    grid-area: about-me;
+    background: $bg_block;
+    border-radius: $br_block;
+
+    &__title {}
+
+    &__text {
+        font-size: 16px;
+        text-align: justify;
+        line-height: 24px;
+        padding: 0px 24px 24px 24px;
+    }
+}
+
+.contact {
+    grid-area: contact;
+    background: $bg_block;
+    border-radius: $br_block;
+
+    &__title {}
+
+    &__item {
+        padding: 0 24px 8px 24px;
+        display: flex;
+    }
+
+    &__icon {
+        width: 19px;
+        height: 19px;
+    }
+
+    &__name {
+        font-size: 16px;
+        flex-grow: 1;
+        padding-left: 8px;
+    }
+
+    &__value {
+        font-size: 16px;
+    }
+}
+
+.projects {
+    grid-area: projects;
+    background: $bg_block;
+    border-radius: $br_block;
+
+    &__title {}
+
+    &__item {
+        margin: 0 24px 24px 24px;
+        padding: 16px 24px 16px 24px;
+
+        background: $bg_block_el;
+        border-radius: $br_block_el;
+
+        display: grid;
+        grid-template-columns: 258px 1fr;
+        grid-template-rows: 96px;
+        gap: 24px;
+    }
+
+    &__left-side {}
+
+    &__name {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    &__link-group {
+        padding: 4px 0 7px 0;
+    }
+
+    &__source {
+        display: inline-block;
+        font-size: 16px;
+        color: $color_link;
+        width: 49px;
+    }
+
+    &__link {
+        display: inline-block;
+        font-size: 16px;
+        color: $color_link;
+        width: 25px;
+    }
+
+    &__tools-group {}
+
+    &__tools {
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+        float: left;
+    }
+
+    &__description {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    &__link-group--one-line {
+        position: relative;
+        top: -8px;
+        display: inline-block;
+    }
+
+    &__tools-group--one-line {
+        display: inline-block;
+        padding: 9px 0 0 4px;
+    }
 }

@@ -13,9 +13,8 @@
 
     <div class="wrapper">
 
-        <div class="container">
-            <div class="content">
-
+        <div class="content">
+            <div class="container">
                 <div class="info">
                     <img class="info__photo" src="./images/Icon_Info/Myphoto.svg" alt="my-photo">
                     <div class="info__name">Svyatchenko Artem</div>
@@ -33,7 +32,7 @@
                 </div>
 
                 <div class="about-me">
-                    <div class="title">About me</div>
+                    <div class="about-me__title title">About me</div>
                     <div class="about-me__text">
                         I'm 21 years old and a student at MIREA - Russian Technological University. I am studying for a
                         specialist degree in Information Security of Telecommunication Systems. I love programming and
@@ -42,7 +41,7 @@
                 </div>
 
                 <div class="contact">
-                    <div class="title">Contact</div>
+                    <div class="contact__title title">Contact</div>
                     <div class="contact__item">
                         <img class="contact__icon" src="./images/Icon_Contact/1_Telegram.svg" alt="telegram">
                         <div class="contact__name">Telegram</div>
@@ -66,12 +65,20 @@
                 </div>
 
                 <div class="projects">
-                    <div class="title">Projects</div>
+                    <div class="projects__title title">Projects</div>
                     <div class="projects__item">
-                        <div class="projects__name">Signal analysis and processing | 2023</div>
-                        <a class="projects__source" href="#">source</a>
-                        <a class="projects__link" href="#">link</a>
-                        <img class="projects__tools" src="./images/Icon_Skills/2_Python.svg" alt="python">
+                        <div class="projects__left-side">
+                            <div class="projects__name">
+                                Signal analysis and processing | 2023
+                            </div>
+                            <div class="projects__link-group">
+                                <a class="projects__source" href="#">source</a>
+                                <!-- <a class="projects__link" href="#">link</a> -->
+                            </div>
+                            <div class="projects__tools-group">
+                                <img class="projects__tools" src="./images/Icon_Skills/2_Python.svg" alt="python">
+                            </div>
+                        </div>
                         <div class="projects__description">
                             This project involves the implementation of the Discrete
                             Fourier Transform (DFT) and Inverse Discrete Fourier Transform (IDFT) algorithms.
@@ -80,12 +87,20 @@
                         </div>
                     </div>
                     <div class="projects__item">
-                        <div class="projects__name">Course: Frontend Development of IT Applications | 2023</div>
-                        <a class="projects__source" href="#">source</a>
-                        <a class="projects__link" href="#">link</a>
-                        <img class="projects__tools" src="./images/Icon_Skills/HTML.svg" alt="HTML">
-                        <img class="projects__tools" src="./images/Icon_Skills/CSS.svg" alt="CSS">
-                        <img class="projects__tools" src="./images/Icon_Skills/SASS.svg" alt="SASS">
+                        <div class="projects__left-side">
+                            <div class="projects__name">
+                                Course: Frontend Development of IT Applications | 2023
+                            </div>
+                            <div class="projects__link-group">
+                                <a class="projects__source" href="#">source</a>
+                                <a class="projects__link" href="#">link</a>
+                            </div>
+                            <div class="projects__tools-group">
+                                <img class="projects__tools" src="./images/Icon_Skills/HTML.svg" alt="HTML">
+                                <img class="projects__tools" src="./images/Icon_Skills/CSS.svg" alt="CSS">
+                                <img class="projects__tools" src="./images/Icon_Skills/SASS.svg" alt="SASS">
+                            </div>
+                        </div>
                         <div class="projects__description">
                             In the project, the layout of the website was implemented
                             based on a previously created design in Figma. The website was developed using the BEM
@@ -93,10 +108,18 @@
                         </div>
                     </div>
                     <div class="projects__item">
-                        <div class="projects__name">Coursework: Intelligent ChatBot | 2022</div>
-                        <a class="projects__source" href="#">source</a>
-                        <a class="projects__link" href="#">link</a>
-                        <img class="projects__tools" src="./images/Icon_Skills/2_Python.svg" alt="python">
+                        <div class="projects__left-side">
+                            <div class="projects__name">
+                                Coursework: Intelligent ChatBot | 2022
+                            </div>
+                            <div class="projects__link-group">
+                                <a class="projects__source" href="#">source</a>
+                                <a class="projects__link" href="#">link</a>
+                            </div>
+                            <div class="projects__tools-group">
+                                <img class="projects__tools" src="./images/Icon_Skills/2_Python.svg" alt="python">
+                            </div>
+                        </div>
                         <div class="projects__description">
                             Coursework on the Basics of Artificial Intelligence in the
                             5th semester. This project involved Natural Language Processing (NLP) with the
@@ -105,11 +128,19 @@
                         </div>
                     </div>
                     <div class="projects__item">
-                        <div class="projects__name">Coursework: Bellman-Ford algorithm for finding the shortest path in
-                            a graph | 2021</div>
-                        <a class="projects__source" href="#">source</a>
-                        <a class="projects__link" href="#">link</a>
-                        <img class="projects__tools" src="./images/Icon_Skills/1_Cpp.svg" alt="C++">
+                        <div class="projects__left-side">
+                            <div class="projects__name">
+                                Coursework: Bellman-Ford algorithm for finding the shortest path
+                                in a graph | 2021
+                            </div>
+                            <div class="projects__link-group projects__link-group--one-line">
+                                <a class="projects__source" href="#">source</a>
+                                <!-- <a class="projects__link" href="#">link</a> -->
+                            </div>
+                            <div class="projects__tools-group projects__tools-group--one-line">
+                                <img class="projects__tools" src="./images/Icon_Skills/1_Cpp.svg" alt="C++">
+                            </div>
+                        </div>
                         <div class="projects__description">
                             Coursework on Programming Methods in the 3rd semester. This
                             project involved the implementation of the Bellman-Ford algorithm for finding the shortest
@@ -118,10 +149,18 @@
                         </div>
                     </div>
                     <div class="projects__item">
-                        <div class="projects__name">Coursework: Implementation of encryption algorithms | 2021</div>
-                        <a class="projects__source" href="#">source</a>
-                        <a class="projects__link" href="#">link</a>
-                        <img class="projects__tools" src="./images/Icon_Skills/1_Cpp.svg" alt="C++">
+                        <div class="projects__left-side">
+                            <div class="projects__name">
+                                Coursework: Implementation of encryption algorithms | 2021
+                            </div>
+                            <div class="projects__link-group">
+                                <a class="projects__source" href="#">source</a>
+                                <!-- <a class="projects__link" href="#">link</a> -->
+                            </div>
+                            <div class="projects__tools-group">
+                                <img class="projects__tools" src="./images/Icon_Skills/1_Cpp.svg" alt="C++">
+                            </div>
+                        </div>
                         <div class="projects__description">
                             Coursework on Programming in the 2nd semester. This project
                             involved the implementation of the following algorithms as classes: Caesar Cipher, Affine
@@ -129,13 +168,10 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
 
     </div>
-
-
 
     <h1><a href="./Exam_layout/exam_layout.html">Экзаменационная верстка страницы</a></h1>
 </body>

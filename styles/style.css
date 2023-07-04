@@ -12,7 +12,141 @@ body {
   font: 400 1rem "Roboto", sans-serif;
 }
 
+.wrapper {
+  padding-top: 24px;
+  background: #D5BDAF;
+}
+
 .content {
   max-width: 81rem;
   margin: 0 auto;
+}
+
+.title {
+  font: 400 24px "Roboto", sans-serif;
+  padding: 16px 0 16px 0;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 416px 856px;
+  grid-template-rows: 384px 204px 184px;
+  grid-template-areas: "info projects" "about-me projects" "contact projects";
+  gap: 24px;
+}
+
+.info {
+  grid-area: info;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.info__photo {
+  width: 242px;
+  height: 242px;
+}
+.info__name {
+  font: 400 32px "Roboto", sans-serif;
+}
+.info__link {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+}
+.info__link-social {
+  margin-bottom: -5px;
+}
+.info__social-image {
+  width: 56px;
+  height: 56px;
+}
+
+.about-me {
+  grid-area: about-me;
+  background: #E3D5CA;
+  border-radius: 1rem;
+}
+.about-me__text {
+  font-size: 16px;
+  text-align: justify;
+  line-height: 24px;
+  padding: 0px 24px 24px 24px;
+}
+
+.contact {
+  grid-area: contact;
+  background: #E3D5CA;
+  border-radius: 1rem;
+}
+.contact__item {
+  padding: 0 24px 8px 24px;
+  display: flex;
+}
+.contact__icon {
+  width: 19px;
+  height: 19px;
+}
+.contact__name {
+  font-size: 16px;
+  flex-grow: 1;
+  padding-left: 8px;
+}
+.contact__value {
+  font-size: 16px;
+}
+
+.projects {
+  grid-area: projects;
+  background: #E3D5CA;
+  border-radius: 1rem;
+}
+.projects__item {
+  margin: 0 24px 24px 24px;
+  padding: 16px 24px 16px 24px;
+  background: #D5BDAF;
+  border-radius: 0.625rem;
+  display: grid;
+  grid-template-columns: 258px 1fr;
+  grid-template-rows: 96px;
+  gap: 24px;
+}
+.projects__name {
+  font-size: 18px;
+  font-weight: 700;
+}
+.projects__link-group {
+  padding: 4px 0 7px 0;
+}
+.projects__source {
+  display: inline-block;
+  font-size: 16px;
+  color: #C1121F;
+  width: 49px;
+}
+.projects__link {
+  display: inline-block;
+  font-size: 16px;
+  color: #C1121F;
+  width: 25px;
+}
+.projects__tools {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  float: left;
+}
+.projects__description {
+  font-size: 16px;
+  text-align: justify;
+}
+.projects__link-group--one-line {
+  position: relative;
+  top: -8px;
+  display: inline-block;
+}
+.projects__tools-group--one-line {
+  display: inline-block;
+  padding: 9px 0 0 4px;
 }
