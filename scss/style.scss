@@ -129,6 +129,11 @@ body {
     &__value {
         font-size: 16px;
     }
+
+    &__value-link {
+        color: black;
+        text-decoration: none;
+    }
 }
 
 .projects {

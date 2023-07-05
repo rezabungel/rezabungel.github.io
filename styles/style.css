@@ -96,6 +96,10 @@ body {
 .contact__value {
   font-size: 16px;
 }
+.contact__value-link {
+  color: black;
+  text-decoration: none;
+}
 
 .projects {
   grid-area: projects;
