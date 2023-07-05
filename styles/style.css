@@ -234,3 +234,16 @@ body {
 .academic-path__list-element:not(:last-of-type) {
   padding-bottom: 7px;
 }
+
+.footer {
+  margin-top: 24px;
+  padding: 16px 0 24px 0;
+  background: #E3D5CA;
+  border-radius: 1rem 1rem 0 0;
+  display: grid;
+  justify-items: center;
+  gap: 9px;
+}
+.footer__info {
+  font-size: 24px;
+}
