@@ -5,11 +5,294 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>smth</title>
 </head>
 
 <body>
-    <h1><a href="./Exam_layout/exam_layout.html">Экзаменационная верстка страницы</a></h1>
+
+    <div class="wrapper">
+
+        <div class="content">
+            <div class="container">
+                <div class="info">
+                    <img class="info__photo" src="./images/Icon_Info/Myphoto.svg" alt="my-photo">
+                    <div class="info__name">Svyatchenko Artem</div>
+                    <div class="info__link">
+                        <a class="info__link-social" href="https://github.com/rezabungel" target="_blank">
+                            <img class="info__social-image" src="./images/Icon_Info/1_GitHub_Circle.svg" alt="github">
+                        </a>
+                        <a class="info__link-social" href="mailto:binaryartem@mail.ru" target="_blank">
+                            <img class="info__social-image" src="./images/Icon_Info/2_Email_Circle.svg" alt="email">
+                        </a>
+                        <a class="info__link-social" href="https://t.me/gospodin5555" target="_blank">
+                            <img class="info__social-image" src="./images/Icon_Info/3_Telegram_Circle.svg" alt="telegram">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="about-me">
+                    <div class="about-me__title title">About me</div>
+                    <div class="about-me__text">
+                        I'm 21 years old and a student at MIREA - Russian Technological University. I am studying for a
+                        specialist degree in Information Security of Telecommunication Systems. I love programming and
+                        I'm open to offers.
+                    </div>
+                </div>
+
+                <div class="contact">
+                    <div class="contact__title title">Contact</div>
+                    <div class="contact__item">
+                        <img class="contact__icon" src="./images/Icon_Contact/1_Telegram.svg" alt="telegram">
+                        <div class="contact__name">Telegram</div>
+                        <div class="contact__value">
+                            <a class="contact__value-link" href="https://t.me/gospodin5555" target="_blank">@gospodin5555</a>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <img class="contact__icon" src="./images/Icon_Contact/2_Email.svg" alt="email">
+                        <div class="contact__name">Email</div>
+                        <div class="contact__value">
+                            <a class="contact__value-link" href="mailto:binaryartem@mail.ru" target="_blank">binaryartem@mail.ru</a>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <img class="contact__icon" src="./images/Icon_Contact/3_Phone.svg" alt="phone">
+                        <div class="contact__name">Phone</div>
+                        <div class="contact__value">unknown</div>
+                    </div>
+                    <div class="contact__item">
+                        <img class="contact__icon" src="./images/Icon_Contact/4_Web.svg" alt="website">
+                        <div class="contact__name">Website</div>
+                        <div class="contact__value">
+                            <a class="contact__value-link" href="https://rezabungel.github.io" target="_blank">rezabungel.github.io</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects">
+                    <div class="projects__title title">Projects</div>
+                    <div class="projects__item">
+                        <div class="projects__left-side">
+                            <div class="projects__name">
+                                Signal analysis and processing | 2023
+                            </div>
+                            <div class="projects__link-group">
+                                <a class="projects__source" href="https://github.com/rezabungel/Signal-analysis-and-processing" target="_blank">source</a>
+                                <!-- <a class="projects__link" href="#" target="_blank">link</a> -->
+                            </div>
+                            <div class="projects__tools-group">
+                                <img class="projects__tools" src="./images/Icon_Skills/2_Python.svg" alt="python">
+                            </div>
+                        </div>
+                        <div class="projects__description">
+                            This project involves the implementation of the Discrete
+                            Fourier Transform (DFT) and Inverse Discrete Fourier Transform (IDFT) algorithms.
+                            Additionally, the algorithms are optimized for parallel data processing using multicore
+                            processing.
+                        </div>
+                    </div>
+                    <div class="projects__item">
+                        <div class="projects__left-side">
+                            <div class="projects__name">
+                                Course: Frontend Development of IT Applications | 2023
+                            </div>
+                            <div class="projects__link-group">
+                                <a class="projects__source" href="https://github.com/rezabungel/rezabungel.github.io" target="_blank">source</a>
+                                <a class="projects__link" href="./Exam_layout/exam_layout.html" target="_blank">link</a>
+                            </div>
+                            <div class="projects__tools-group">
+                                <img class="projects__tools" src="./images/Icon_Skills/HTML.svg" alt="HTML">
+                                <img class="projects__tools" src="./images/Icon_Skills/CSS.svg" alt="CSS">
+                                <img class="projects__tools" src="./images/Icon_Skills/SASS.svg" alt="SASS">
+                            </div>
+                        </div>
+                        <div class="projects__description">
+                            In the project, the layout of the website was implemented
+                            based on a previously created design in Figma. The website was developed using the BEM
+                            methodology, and CSS was written using the SCSS preprocessor.
+                        </div>
+                    </div>
+                    <div class="projects__item">
+                        <div class="projects__left-side">
+                            <div class="projects__name">
+                                Coursework: Intelligent ChatBot | 2022
+                            </div>
+                            <div class="projects__link-group">
+                                <a class="projects__source" href="https://github.com/rezabungel/Intelligent-ChatBot" target="_blank">source</a>
+                                <a class="projects__link" href="https://t.me/CourseWorkIntelligentChatBot" target="_blank">link</a>
+                            </div>
+                            <div class="projects__tools-group">
+                                <img class="projects__tools" src="./images/Icon_Skills/2_Python.svg" alt="python">
+                            </div>
+                        </div>
+                        <div class="projects__description">
+                            Coursework on the Basics of Artificial Intelligence in the
+                            5th semester. This project involved Natural Language Processing (NLP) with the
+                            "bag-of-words" method, a feedforward neural network with two hidden layers, and the
+                            development of a Telegram bot for communication.
+                        </div>
+                    </div>
+                    <div class="projects__item">
+                        <div class="projects__left-side">
+                            <div class="projects__name">
+                                Coursework: Bellman-Ford algorithm for finding the shortest path
+                                in a graph | 2021
+                            </div>
+                            <div class="projects__link-group projects__link-group--one-line">
+                                <a class="projects__source" href="https://github.com/rezabungel/Bellman-Ford-algorithm-for-finding-the-shortest-path-in-a-graph_Coursework" target="_blank">source</a>
+                                <!-- <a class="projects__link" href="#" target="_blank">link</a> -->
+                            </div>
+                            <div class="projects__tools-group projects__tools-group--one-line">
+                                <img class="projects__tools" src="./images/Icon_Skills/1_Cpp.svg" alt="C++">
+                            </div>
+                        </div>
+                        <div class="projects__description">
+                            Coursework on Programming Methods in the 3rd semester. This
+                            project involved the implementation of the Bellman-Ford algorithm for finding the shortest
+                            path in a graph. Additionally, code optimization was performed to reduce the algorithm's
+                            execution time.
+                        </div>
+                    </div>
+                    <div class="projects__item">
+                        <div class="projects__left-side">
+                            <div class="projects__name">
+                                Coursework: Implementation of encryption algorithms | 2021
+                            </div>
+                            <div class="projects__link-group">
+                                <a class="projects__source" href="https://github.com/rezabungel/Implementation_of_encryption_algorithms_Coursework" target="_blank">source</a>
+                                <!-- <a class="projects__link" href="#" target="_blank">link</a> -->
+                            </div>
+                            <div class="projects__tools-group">
+                                <img class="projects__tools" src="./images/Icon_Skills/1_Cpp.svg" alt="C++">
+                            </div>
+                        </div>
+                        <div class="projects__description">
+                            Coursework on Programming in the 2nd semester. This project
+                            involved the implementation of the following algorithms as classes: Caesar Cipher, Affine
+                            Cipher, Vigenère Cipher, Playfair Cipher, Polybius Cipher, and Hill Cipher.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="skills">
+                <div class="skills__title title">Skills</div>
+                <div class="skills__mesh">
+                    <div class="skills__element skills__element--small-size">
+                        <img class="skills__logo" src="./images/Icon_Skills/1_Cpp.svg" alt="C++">
+                        <div class="skills__name">C++</div>
+                        <div class="skills__description">
+                            I am rediscovering this language with a deeper study using Stroustrup's book.
+                        </div>
+                    </div>
+                    <div class="skills__element">
+                        <img class="skills__logo" src="./images/Icon_Skills/2_Python.svg" alt="python">
+                        <div class="skills__name">Python</div>
+                        <div class="skills__description">
+                            I work with NumPy, Matplotlib, Scikit-learn and continue to explore new libraries and
+                            improve my skills with the existing ones.
+                        </div>
+                    </div>
+                    <div class="skills__element skills__element--small-size">
+                        <img class="skills__logo" src="./images/Icon_Skills/3_Assembler.svg" alt="assembler">
+                        <div class="skills__name">Assembler</div>
+                        <div class="skills__description">
+                            I have a basic understanding and some experience working with MASM32. It is a pleasant
+                            addition to C++.
+                        </div>
+                    </div>
+                    <div class="skills__element skills__element--small-size">
+                        <img class="skills__logo" src="./images/Icon_Skills/4_Git-logo.svg" alt="git">
+                        <div class="skills__name">Git</div>
+                        <div class="skills__description">
+                            Having knowledge of Git gives me wide-ranging opportunities in project development.
+                        </div>
+                    </div>
+                    <div class="skills__element">
+                        <img class="skills__logo" src="./images/Icon_Skills/5_Linux.svg" alt="linux">
+                        <div class="skills__name">Linux</div>
+                        <div class="skills__description">
+                            Knowledge of Linux is essential. Experience working with this OC has never been superfluous
+                            for me.
+                        </div>
+                    </div>
+                    <div class="skills__element skills__element--small-size skills__element--big-text">
+                        <img class="skills__logo" src="./images/Icon_Skills/6_HTML_CSS_SASS.svg" alt="HTML CSS SASS">
+                        <div class="skills__name">HTML CSS + SCSS</div>
+                        <div class="skills__description">
+                            A basic understanding in this field allowed me to create this website, and it will also be
+                            useful for web-based applications.
+                        </div>
+                    </div>
+                    <div class="skills__element skills__element--small-size">
+                        <img class="skills__logo" src="./images/Icon_Skills/7_VS-code.svg" alt="VS Code">
+                        <div class="skills__name">VS Code</div>
+                        <div class="skills__description">
+                            A cool editor with support for various languages, plugins, and a debugging system.
+                        </div>
+                    </div>
+                    <div class="skills__element">
+                        <img class="skills__logo" src="./images/Icon_Skills/8_Microsoft-Office.svg" alt="Microsoft Office">
+                        <div class="skills__name">Microsoft Office</div>
+                        <div class="skills__description">
+                            Word, Excel, Visio are some of my best assistants when writing project reports.
+                        </div>
+                    </div>
+                    <div class="skills__element skills__element--small-size">
+                        <img class="skills__logo" src="./images/Icon_Skills/9_Photoshop_and_Figma.svg" alt="Photoshop and Figma">
+                        <div class="skills__name">Photoshop & Figma</div>
+                        <div class="skills__description">
+                            Pixelmator Pro is indispensable for creating and editing images, and Figma is the best tool
+                            for creating layouts.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="knowledge">
+                <div class="education">
+                    <div class="education__title title">Education</div>
+                    <div class="education__history">
+                        <div class="education__element">
+                            <div class="education__name">MIREA - Russian Technological University | 2020 - 2025</div>
+                            <div class="education__description">Institute of Artificial Intelligence</div>
+                            <div class="education__description">Specialty: Information Security of Telecommunication Systems</div>
+                        </div>
+                        <div class="education__element">
+                            <div class="education__name">Frontend Development of IT Applications | sept 2022 - june 2023</div>
+                            <div class="education__description">Design Theory and Website Development | Figma, HTML, CSS, JS, SCSS</div>
+                            <!-- <div class="education__description"></div> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="academic-path">
+                    <div class="academic-path__title title">Academic path</div>
+                    <ul class="academic-path__list">
+                        <li class="academic-path__list-element">Studying the book: "Programming: Principles and Practice Using C++" by Stroustrup.</li>
+                        <li class="academic-path__list-element">Multithreading and Asynchrony</li>
+                        <li class="academic-path__list-element">Machine Learning (ML) and Deep Learning (DL)</li>
+                        <li class="academic-path__list-element">Mastering the Advanced Features of Git.</li>
+                        <li class="academic-path__list-element">SQL (Structured Query Language)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <footer class="footer">
+                <div class="footer__info">Designed by Artem in Russia</div>
+                <div class="footer__info">Assembled at Home</div>
+            </footer>
+        </div>
+
+    </div>
+
 </body>
 
 </html>
