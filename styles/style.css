@@ -251,3 +251,10 @@ body {
 .footer__info {
   font-size: 24px;
 }
+
+@media screen and (max-width: 1030px) {
+  html,
+  body {
+    width: 81rem;
+  }
+}
