@@ -26,7 +26,7 @@ body {
 }
 
 .wrapper {
-    padding-top: 24px;
+    padding-top: 1.5rem;
     background: $bg_main;
 }
 
@@ -36,8 +36,8 @@ body {
 }
 
 .title {
-    font: 400 24px "Roboto", sans-serif;
-    padding: 16px 0 16px 0;
+    font: 400 1.5rem "Roboto", sans-serif;
+    padding: 1rem 0;
     text-align: center;
 }
 
@@ -45,13 +45,13 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 416px 856px;
-    grid-template-rows: 384px 204px 184px;
+    grid-template-columns: 26rem 53.5rem;
+    grid-template-rows: 24rem 12.75rem 11.5rem;
     grid-template-areas:
         "info projects"
         "about-me projects"
         "contact projects";
-    gap: 24px;
+    gap: 1.5rem;
 }
 
 .info {
@@ -63,27 +63,27 @@ body {
     justify-content: space-between;
 
     &__photo {
-        width: 242px;
-        height: 242px;
+        width: 15.125rem;
+        height: 15.125rem;
     }
 
     &__name {
-        font: 400 32px "Roboto", sans-serif;
+        font: 400 2rem "Roboto", sans-serif;
     }
 
     &__link {
         display: flex;
         justify-content: space-between;
-        width: 280px;
+        width: 17.5rem;
     }
 
     &__link-social {
-        margin-bottom: -5px;
+        margin-bottom: -0.3125rem;
     }
 
     &__social-image {
-        width: 56px;
-        height: 56px;
+        width: 3.5rem;
+        height: 3.5rem;
     }
 }
 
@@ -96,10 +96,10 @@ body {
     &__title {}
 
     &__text {
-        font-size: 16px;
+        font-size: 1rem;
         text-align: justify;
-        line-height: 24px;
-        padding: 0px 24px 24px 24px;
+        line-height: 1.5rem;
+        padding: 0 1.5rem 1.5rem;
     }
 }
 
@@ -111,23 +111,23 @@ body {
     &__title {}
 
     &__item {
-        padding: 0 24px 8px 24px;
+        padding: 0 1.5rem 0.5rem 1.5rem;
         display: flex;
     }
 
     &__icon {
-        width: 19px;
-        height: 19px;
+        width: 1.1875rem;
+        height: 1.1875rem;
     }
 
     &__name {
-        font-size: 16px;
+        font-size: 1rem;
         flex-grow: 1;
-        padding-left: 8px;
+        padding-left: 0.5rem;
     }
 
     &__value {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     &__value-link {
@@ -144,66 +144,66 @@ body {
     &__title {}
 
     &__item {
-        margin: 0 24px 24px 24px;
-        padding: 16px 24px 16px 24px;
+        margin: 0 1.5rem 1.5rem;
+        padding: 1rem 1.5rem;
 
         background: $bg_block_el;
         border-radius: $br_block_el;
 
         display: grid;
-        grid-template-columns: 258px 1fr;
-        grid-template-rows: 96px;
-        gap: 24px;
+        grid-template-columns: 16.125rem 1fr;
+        grid-template-rows: 6rem;
+        gap: 1.5rem;
     }
 
     &__left-side {}
 
     &__name {
-        font-size: 18px;
+        font-size: 1.125rem;
         font-weight: 700;
     }
 
     &__link-group {
-        padding: 4px 0 7px 0;
+        padding: 0.25rem 0 0.4375rem 0;
     }
 
     &__source {
         display: inline-block;
-        font-size: 16px;
+        font-size: 1rem;
         color: $color_link;
-        width: 49px;
+        width: 3.0625rem;
     }
 
     &__link {
         display: inline-block;
-        font-size: 16px;
+        font-size: 1rem;
         color: $color_link;
-        width: 25px;
+        width: 1.5625rem;
     }
 
     &__tools-group {}
 
     &__tools {
-        width: 24px;
-        height: 24px;
-        margin-right: 8px;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-right: 0.5rem;
         float: left;
     }
 
     &__description {
-        font-size: 16px;
+        font-size: 1rem;
         text-align: justify;
     }
 
     &__link-group--one-line {
         position: relative;
-        top: -8px;
+        top: -0.5rem;
         display: inline-block;
     }
 
     &__tools-group--one-line {
         display: inline-block;
-        padding: 9px 0 0 4px;
+        padding: 0.5625rem 0 0 0.25rem;
     }
 }
 
@@ -212,69 +212,69 @@ body {
 .skills {
     background: $bg_block;
     border-radius: $br_block;
-    margin-top: 24px;
-    padding-bottom: 24px;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
 
     &__title {}
 
     &__mesh {
         display: grid;
-        grid-template-columns: 392px 416px 392px;
-        grid-template-rows: repeat(3, 128px);
-        gap: 24px;
-        padding: 0 24px;
+        grid-template-columns: 24.5rem 26rem 24.5rem;
+        grid-template-rows: repeat(3, 8rem);
+        gap: 1.5rem;
+        padding: 0 1.5rem;
     }
 
     &__element {
         background: $bg_block_el;
         border-radius: $br_block_el;
-        padding: 24px;
+        padding: 1.5rem;
 
         display: grid;
-        grid-template-columns: 80px 1fr;
-        grid-template-rows: 21px 1fr;
+        grid-template-columns: 5rem 1fr;
+        grid-template-rows: 1.3125rem 1fr;
         grid-template-areas:
             "logo name"
             "logo description";
-        gap: 11px 24px;
+        gap: 0.6875rem 1.5rem;
     }
 
     &__logo {
         grid-area: logo;
-        width: 80px;
-        height: 80px;
+        width: 5rem;
+        height: 5rem;
     }
 
     &__name {
         grid-area: name;
-        font-size: 18px;
+        font-size: 1.125rem;
         font-weight: 700;
     }
 
     &__description {
         grid-area: description;
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     &__element--small-size {
-        padding-left: 18px;
-        gap: 11px 20px;
+        padding-left: 1.125rem;
+        gap: 0.6875rem 1.25rem;
     }
 
     &__element--big-text {
-        gap: 5px 20px;
+        gap: 0.3125rem 1.25rem;
     }
 }
 
 // ********************
 
 .knowledge {
-    margin-top: 24px;
+    margin-top: 1.5rem;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: 24px;
+    gap: 1.5rem;
 }
 
 .education {
@@ -285,21 +285,21 @@ body {
 
     &__history {
         display: grid;
-        grid-auto-rows: 59px;
-        gap: 24px;
-        padding: 0 24px 24px 24px;
+        grid-auto-rows: 3.6875rem;
+        gap: 1.5rem;
+        padding: 0 1.5rem 1.5rem;
     }
 
     &__element {}
 
     &__name {
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 700;
     }
 
     &__description {
-        font-size: 14px;
-        padding-top: 4px;
+        font-size: 0.875rem;
+        padding-top: 0.25rem;
     }
 }
 
@@ -310,30 +310,30 @@ body {
     &__title {}
 
     &__list {
-        padding: 0 24px 24px 48px;
-        font-size: 16px;
+        padding: 0 1.5rem 1.5rem 3rem;
+        font-size: 1rem;
     }
 
     &__list-element:not(:last-of-type) {
-        padding-bottom: 7px;
+        padding-bottom: 0.4375rem;
     }
 }
 
 // ********************
 
 .footer {
-    margin-top: 24px;
-    padding: 16px 0 24px 0;
+    margin-top: 1.5rem;
+    padding: 1rem 0 1.5rem;
 
     background: $bg_block;
     border-radius: $br_block $br_block 0 0;
 
     display: grid;
     justify-items: center;
-    gap: 9px;
+    gap: 0.5625rem;
 
     &__info {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 }
 

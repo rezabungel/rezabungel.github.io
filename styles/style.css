@@ -13,7 +13,7 @@ body {
 }
 
 .wrapper {
-  padding-top: 24px;
+  padding-top: 1.5rem;
   background: #D5BDAF;
 }
 
@@ -23,17 +23,17 @@ body {
 }
 
 .title {
-  font: 400 24px "Roboto", sans-serif;
-  padding: 16px 0 16px 0;
+  font: 400 1.5rem "Roboto", sans-serif;
+  padding: 1rem 0;
   text-align: center;
 }
 
 .container {
   display: grid;
-  grid-template-columns: 416px 856px;
-  grid-template-rows: 384px 204px 184px;
+  grid-template-columns: 26rem 53.5rem;
+  grid-template-rows: 24rem 12.75rem 11.5rem;
   grid-template-areas: "info projects" "about-me projects" "contact projects";
-  gap: 24px;
+  gap: 1.5rem;
 }
 
 .info {
@@ -44,23 +44,23 @@ body {
   justify-content: space-between;
 }
 .info__photo {
-  width: 242px;
-  height: 242px;
+  width: 15.125rem;
+  height: 15.125rem;
 }
 .info__name {
-  font: 400 32px "Roboto", sans-serif;
+  font: 400 2rem "Roboto", sans-serif;
 }
 .info__link {
   display: flex;
   justify-content: space-between;
-  width: 280px;
+  width: 17.5rem;
 }
 .info__link-social {
-  margin-bottom: -5px;
+  margin-bottom: -0.3125rem;
 }
 .info__social-image {
-  width: 56px;
-  height: 56px;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 .about-me {
@@ -69,10 +69,10 @@ body {
   border-radius: 1rem;
 }
 .about-me__text {
-  font-size: 16px;
+  font-size: 1rem;
   text-align: justify;
-  line-height: 24px;
-  padding: 0px 24px 24px 24px;
+  line-height: 1.5rem;
+  padding: 0 1.5rem 1.5rem;
 }
 
 .contact {
@@ -81,20 +81,20 @@ body {
   border-radius: 1rem;
 }
 .contact__item {
-  padding: 0 24px 8px 24px;
+  padding: 0 1.5rem 0.5rem 1.5rem;
   display: flex;
 }
 .contact__icon {
-  width: 19px;
-  height: 19px;
+  width: 1.1875rem;
+  height: 1.1875rem;
 }
 .contact__name {
-  font-size: 16px;
+  font-size: 1rem;
   flex-grow: 1;
-  padding-left: 8px;
+  padding-left: 0.5rem;
 }
 .contact__value {
-  font-size: 16px;
+  font-size: 1rem;
 }
 .contact__value-link {
   color: black;
@@ -107,105 +107,105 @@ body {
   border-radius: 1rem;
 }
 .projects__item {
-  margin: 0 24px 24px 24px;
-  padding: 16px 24px 16px 24px;
+  margin: 0 1.5rem 1.5rem;
+  padding: 1rem 1.5rem;
   background: #D5BDAF;
   border-radius: 0.625rem;
   display: grid;
-  grid-template-columns: 258px 1fr;
-  grid-template-rows: 96px;
-  gap: 24px;
+  grid-template-columns: 16.125rem 1fr;
+  grid-template-rows: 6rem;
+  gap: 1.5rem;
 }
 .projects__name {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
 }
 .projects__link-group {
-  padding: 4px 0 7px 0;
+  padding: 0.25rem 0 0.4375rem 0;
 }
 .projects__source {
   display: inline-block;
-  font-size: 16px;
+  font-size: 1rem;
   color: #C1121F;
-  width: 49px;
+  width: 3.0625rem;
 }
 .projects__link {
   display: inline-block;
-  font-size: 16px;
+  font-size: 1rem;
   color: #C1121F;
-  width: 25px;
+  width: 1.5625rem;
 }
 .projects__tools {
-  width: 24px;
-  height: 24px;
-  margin-right: 8px;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
   float: left;
 }
 .projects__description {
-  font-size: 16px;
+  font-size: 1rem;
   text-align: justify;
 }
 .projects__link-group--one-line {
   position: relative;
-  top: -8px;
+  top: -0.5rem;
   display: inline-block;
 }
 .projects__tools-group--one-line {
   display: inline-block;
-  padding: 9px 0 0 4px;
+  padding: 0.5625rem 0 0 0.25rem;
 }
 
 .skills {
   background: #E3D5CA;
   border-radius: 1rem;
-  margin-top: 24px;
-  padding-bottom: 24px;
+  margin-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 .skills__mesh {
   display: grid;
-  grid-template-columns: 392px 416px 392px;
-  grid-template-rows: repeat(3, 128px);
-  gap: 24px;
-  padding: 0 24px;
+  grid-template-columns: 24.5rem 26rem 24.5rem;
+  grid-template-rows: repeat(3, 8rem);
+  gap: 1.5rem;
+  padding: 0 1.5rem;
 }
 .skills__element {
   background: #D5BDAF;
   border-radius: 0.625rem;
-  padding: 24px;
+  padding: 1.5rem;
   display: grid;
-  grid-template-columns: 80px 1fr;
-  grid-template-rows: 21px 1fr;
+  grid-template-columns: 5rem 1fr;
+  grid-template-rows: 1.3125rem 1fr;
   grid-template-areas: "logo name" "logo description";
-  gap: 11px 24px;
+  gap: 0.6875rem 1.5rem;
 }
 .skills__logo {
   grid-area: logo;
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
 }
 .skills__name {
   grid-area: name;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
 }
 .skills__description {
   grid-area: description;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .skills__element--small-size {
-  padding-left: 18px;
-  gap: 11px 20px;
+  padding-left: 1.125rem;
+  gap: 0.6875rem 1.25rem;
 }
 .skills__element--big-text {
-  gap: 5px 20px;
+  gap: 0.3125rem 1.25rem;
 }
 
 .knowledge {
-  margin-top: 24px;
+  margin-top: 1.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  gap: 24px;
+  gap: 1.5rem;
 }
 
 .education {
@@ -214,17 +214,17 @@ body {
 }
 .education__history {
   display: grid;
-  grid-auto-rows: 59px;
-  gap: 24px;
-  padding: 0 24px 24px 24px;
+  grid-auto-rows: 3.6875rem;
+  gap: 1.5rem;
+  padding: 0 1.5rem 1.5rem;
 }
 .education__name {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
 }
 .education__description {
-  font-size: 14px;
-  padding-top: 4px;
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
 }
 
 .academic-path {
@@ -232,24 +232,24 @@ body {
   border-radius: 1rem;
 }
 .academic-path__list {
-  padding: 0 24px 24px 48px;
-  font-size: 16px;
+  padding: 0 1.5rem 1.5rem 3rem;
+  font-size: 1rem;
 }
 .academic-path__list-element:not(:last-of-type) {
-  padding-bottom: 7px;
+  padding-bottom: 0.4375rem;
 }
 
 .footer {
-  margin-top: 24px;
-  padding: 16px 0 24px 0;
+  margin-top: 1.5rem;
+  padding: 1rem 0 1.5rem;
   background: #E3D5CA;
   border-radius: 1rem 1rem 0 0;
   display: grid;
   justify-items: center;
-  gap: 9px;
+  gap: 0.5625rem;
 }
 .footer__info {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 1030px) {
