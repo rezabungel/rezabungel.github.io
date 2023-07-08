@@ -11,11 +11,11 @@
 html,
 body {
   font: 400 1rem "Roboto", sans-serif;
+  background: #D5BDAF;
 }
 
 .wrapper {
   padding-top: 1.5rem;
-  background: #D5BDAF;
 }
 
 .content {

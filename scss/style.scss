@@ -23,11 +23,11 @@ $br_block_el: 0.625rem;
 html,
 body {
     font: 400 1rem "Roboto", sans-serif;
+    background: $bg_main;
 }
 
 .wrapper {
     padding-top: 1.5rem;
-    background: $bg_main;
 }
 
 .content {
