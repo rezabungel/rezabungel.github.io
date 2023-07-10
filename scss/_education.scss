@@ -1,0 +1,37 @@
+.education {
+    background: $bg_block;
+    border-radius: $br_block;
+    box-shadow: $bs_block;
+    @include scale_down;
+
+    &:hover {
+        @include big_scale_up;
+    }
+
+    &__title {}
+
+    &__history {
+        display: grid;
+        grid-auto-rows: 3.6875rem;
+        gap: 1.5rem;
+        padding: 0 1.5rem 1.5rem;
+    }
+
+    &__element {
+        @include scale_down;
+    }
+
+    &__element:hover {
+        @include small_scale_up;
+    }
+
+    &__name {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    &__description {
+        font-size: 0.875rem;
+        padding-top: 0.25rem;
+    }
+}

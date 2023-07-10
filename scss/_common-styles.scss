@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font: 400 1rem "Roboto", sans-serif;
+    background: $bg_main;
+}
+
+.wrapper {
+    padding-top: 1.5rem;
+}
+
+.content {
+    max-width: 81rem;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    text-align: center;
+}

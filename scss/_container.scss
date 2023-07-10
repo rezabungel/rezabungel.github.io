@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    grid-template-columns: 26rem 53.5rem;
+    grid-template-rows: 24rem 12.75rem 11.5rem;
+    grid-template-areas:
+        "info projects"
+        "about-me projects"
+        "contact projects";
+    gap: 1.5rem;
+}
+
+@import 'info';
+@import 'about-me';
+@import 'contact';
+@import 'projects';

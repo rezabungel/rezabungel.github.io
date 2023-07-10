@@ -1,0 +1,47 @@
+.info {
+    grid-area: info;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    &__photo {
+        width: 15.125rem;
+        height: 15.125rem;
+        @include scale_down;
+    }
+
+    &__photo:hover {
+        @include big_scale_up;
+    }
+
+    &__name {
+        font-size: 2rem;
+        @include scale_down;
+    }
+
+    &__name:hover {
+        @include big_scale_up;
+    }
+
+    &__link {
+        display: flex;
+        justify-content: space-between;
+        width: 17.5rem;
+    }
+
+    &__link-social {
+        margin-bottom: -0.3125rem;
+    }
+
+    &__social-image {
+        width: 3.5rem;
+        height: 3.5rem;
+        @include slide-down;
+    }
+
+    &__social-image:hover {
+        @include slide-up;
+    }
+}

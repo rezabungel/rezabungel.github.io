@@ -1,0 +1,43 @@
+.contact {
+    grid-area: contact;
+    background: $bg_block;
+    border-radius: $br_block;
+    box-shadow: $bs_block;
+    @include scale_down;
+
+    &:hover {
+        @include big_scale_up;
+    }
+
+    &__title {}
+
+    &__item {
+        padding: 0 1.5rem 0.5rem 1.5rem;
+        display: flex;
+        @include scale_down;
+    }
+
+    &__item:hover {
+        @include small_scale_up
+    }
+
+    &__icon {
+        width: 1.1875rem;
+        height: 1.1875rem;
+    }
+
+    &__name {
+        font-size: 1rem;
+        flex-grow: 1;
+        padding-left: 0.5rem;
+    }
+
+    &__value {
+        font-size: 1rem;
+    }
+
+    &__value-link {
+        color: black;
+        text-decoration: none;
+    }
+}

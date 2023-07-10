@@ -1,0 +1,17 @@
+// bg - background
+$bg_main: #D5BDAF;
+$bg_block: #E3D5CA;
+$bg_block_el: $bg_main;
+
+$color_link: #C1121F;
+
+// br - border-radius
+$br_block: 1rem;
+$br_block_el: 0.625rem;
+
+// bs - box-shadow
+$bs_block: 0.0625rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1), -0.03125rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1);
+$bs_block_el: 0.0625rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.2), -0.03125rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.2);
+
+// timing-function
+$easeOutQuad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
