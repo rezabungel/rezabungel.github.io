@@ -1,0 +1,70 @@
+.projects {
+    grid-area: projects;
+    background: $bg_block;
+    border-radius: $br_block;
+
+    &__title {}
+
+    &__item {
+        margin: 0 1.5rem 1.5rem;
+        padding: 1rem 1.5rem;
+
+        background: $bg_block_el;
+        border-radius: $br_block_el;
+
+        display: grid;
+        grid-template-columns: 16.125rem 1fr;
+        grid-template-rows: 6rem;
+        gap: 1.5rem;
+    }
+
+    &__left-side {}
+
+    &__name {
+        font-size: 1.125rem;
+        font-weight: 700;
+    }
+
+    &__link-group {
+        padding: 0.25rem 0 0.4375rem 0;
+    }
+
+    &__source {
+        display: inline-block;
+        font-size: 1rem;
+        color: $color_link;
+        width: 3.0625rem;
+    }
+
+    &__link {
+        display: inline-block;
+        font-size: 1rem;
+        color: $color_link;
+        width: 1.5625rem;
+    }
+
+    &__tools-group {}
+
+    &__tools {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-right: 0.5rem;
+        float: left;
+    }
+
+    &__description {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    &__link-group--one-line {
+        position: relative;
+        top: -0.5rem;
+        display: inline-block;
+    }
+
+    &__tools-group--one-line {
+        display: inline-block;
+        padding: 0.5625rem 0 0 0.25rem;
+    }
+}

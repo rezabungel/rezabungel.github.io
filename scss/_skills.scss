@@ -1,0 +1,56 @@
+.skills {
+    background: $bg_block;
+    border-radius: $br_block;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+
+    &__title {}
+
+    &__mesh {
+        display: grid;
+        grid-template-columns: 24.5rem 26rem 24.5rem;
+        grid-template-rows: repeat(3, 8rem);
+        gap: 1.5rem;
+        padding: 0 1.5rem;
+    }
+
+    &__element {
+        background: $bg_block_el;
+        border-radius: $br_block_el;
+        padding: 1.5rem;
+
+        display: grid;
+        grid-template-columns: 5rem 1fr;
+        grid-template-rows: 1.3125rem 1fr;
+        grid-template-areas:
+            "logo name"
+            "logo description";
+        gap: 0.6875rem 1.5rem;
+    }
+
+    &__logo {
+        grid-area: logo;
+        width: 5rem;
+        height: 5rem;
+    }
+
+    &__name {
+        grid-area: name;
+        font-size: 1.125rem;
+        font-weight: 700;
+    }
+
+    &__description {
+        grid-area: description;
+        font-size: 0.875rem;
+    }
+
+    &__element--small-size {
+        padding-left: 1.125rem;
+        gap: 0.6875rem 1.25rem;
+    }
+
+    &__element--big-text {
+        gap: 0.3125rem 1.25rem;
+    }
+}

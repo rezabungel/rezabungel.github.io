@@ -1,0 +1,15 @@
+.academic-path {
+    background: $bg_block;
+    border-radius: $br_block;
+
+    &__title {}
+
+    &__list {
+        padding: 0 1.5rem 1.5rem 3rem;
+        font-size: 1rem;
+    }
+
+    &__list-element:not(:last-of-type) {
+        padding-bottom: 0.4375rem;
+    }
+}

@@ -1,0 +1,32 @@
+.info {
+    grid-area: info;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    &__photo {
+        width: 15.125rem;
+        height: 15.125rem;
+    }
+
+    &__name {
+        font-size: 2rem;
+    }
+
+    &__link {
+        display: flex;
+        justify-content: space-between;
+        width: 17.5rem;
+    }
+
+    &__link-social {
+        margin-bottom: -0.3125rem;
+    }
+
+    &__social-image {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+}

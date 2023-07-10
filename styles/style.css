@@ -24,7 +24,7 @@ body {
 }
 
 .title {
-  font: 400 1.5rem "Roboto", sans-serif;
+  font-size: 1.5rem;
   padding: 1rem 0;
   text-align: center;
 }
@@ -58,7 +58,7 @@ body {
   height: 15.125rem;
 }
 .info__name {
-  font: 400 2rem "Roboto", sans-serif;
+  font-size: 2rem;
 }
 .info__link {
   display: -webkit-box;
