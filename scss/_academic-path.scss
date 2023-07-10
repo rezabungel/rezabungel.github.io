@@ -1,6 +1,12 @@
 .academic-path {
     background: $bg_block;
     border-radius: $br_block;
+    box-shadow: $bs_block;
+    @include scale_down;
+
+    &:hover {
+        @include big_scale_up;
+    }
 
     &__title {}
 
@@ -9,7 +15,15 @@
         font-size: 1rem;
     }
 
+    &__list-element {
+        @include scale_down;
+    }
+
     &__list-element:not(:last-of-type) {
         padding-bottom: 0.4375rem;
+    }
+
+    &__list-element:hover {
+        @include small_scale_up;
     }
 }

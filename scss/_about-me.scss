@@ -2,6 +2,12 @@
     grid-area: about-me;
     background: $bg_block;
     border-radius: $br_block;
+    box-shadow: $bs_block;
+    @include scale_down;
+
+    &:hover {
+        @include big_scale_up;
+    }
 
     &__title {}
 

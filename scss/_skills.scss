@@ -1,23 +1,34 @@
 .skills {
-    background: $bg_block;
-    border-radius: $br_block;
     margin-top: 1.5rem;
     padding-bottom: 1.5rem;
+
+    background: $bg_block;
+    border-radius: $br_block;
+    box-shadow: $bs_block;
+
+    @include scale_down;
+
+    &:hover {
+        @include small_scale_up;
+    }
 
     &__title {}
 
     &__mesh {
+        padding: 0 1.5rem;
+
         display: grid;
         grid-template-columns: 24.5rem 26rem 24.5rem;
         grid-template-rows: repeat(3, 8rem);
         gap: 1.5rem;
-        padding: 0 1.5rem;
     }
 
     &__element {
+        padding: 1.5rem;
+
         background: $bg_block_el;
         border-radius: $br_block_el;
-        padding: 1.5rem;
+        box-shadow: $bs_block_el;
 
         display: grid;
         grid-template-columns: 5rem 1fr;
@@ -26,6 +37,12 @@
             "logo name"
             "logo description";
         gap: 0.6875rem 1.5rem;
+
+        @include scale_down;
+    }
+
+    &__element:hover {
+        @include big_scale_up;
     }
 
     &__logo {

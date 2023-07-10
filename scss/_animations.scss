@@ -1,0 +1,34 @@
+@mixin slide-down {
+    transform: translateY(0);
+    transition-property: transform;
+    transition-duration: 0.75s;
+    transition-timing-function: $easeOutQuad;
+}
+
+@mixin slide-up {
+    transform: translateY(-8px);
+    transition-property: transform;
+    transition-duration: 0.75s;
+    transition-timing-function: $easeOutQuad;
+}
+
+@mixin big_scale_up {
+    transform: scale(1.025, 1.025);
+    transition-property: transform;
+    transition-duration: 0.75s;
+    transition-timing-function: $easeOutQuad;
+}
+
+@mixin small_scale_up {
+    transform: scale(1.008, 1.008);
+    transition-property: transform;
+    transition-duration: 0.75s;
+    transition-timing-function: $easeOutQuad;
+}
+
+@mixin scale_down {
+    transform: scale(1.0, 1.0);
+    transition-property: transform;
+    transition-duration: 0.75s;
+    transition-timing-function: $easeOutQuad;
+}

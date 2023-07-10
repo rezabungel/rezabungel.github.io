@@ -9,10 +9,20 @@
     &__photo {
         width: 15.125rem;
         height: 15.125rem;
+        @include scale_down;
+    }
+
+    &__photo:hover {
+        @include big_scale_up;
     }
 
     &__name {
         font-size: 2rem;
+        @include scale_down;
+    }
+
+    &__name:hover {
+        @include big_scale_up;
     }
 
     &__link {
@@ -28,5 +38,10 @@
     &__social-image {
         width: 3.5rem;
         height: 3.5rem;
+        @include slide-down;
+    }
+
+    &__social-image:hover {
+        @include slide-up;
     }
 }
