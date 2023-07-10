@@ -6,7 +6,7 @@
 }
 
 @mixin slide-up {
-    transform: translateY(-8px);
+    transform: translateY(-0.5rem);
     transition-property: transform;
     transition-duration: 0.75s;
     transition-timing-function: $easeOutQuad;

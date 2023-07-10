@@ -151,9 +151,9 @@ body {
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .info__social-image:hover {
-  -webkit-transform: translateY(-8px);
-      -ms-transform: translateY(-8px);
-          transform: translateY(-8px);
+  -webkit-transform: translateY(-0.5rem);
+      -ms-transform: translateY(-0.5rem);
+          transform: translateY(-0.5rem);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
   -o-transition-property: transform;
@@ -171,8 +171,8 @@ body {
   grid-area: about-me;
   background: #E3D5CA;
   border-radius: 1rem;
-  -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1), -0.5px 1px 1px 1px rgba(0, 0, 0, 0.1);
-          box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1), -0.5px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1), -0.03125rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1), -0.03125rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1);
   -webkit-transform: scale(1, 1);
       -ms-transform: scale(1, 1);
           transform: scale(1, 1);
@@ -215,8 +215,8 @@ body {
   grid-area: contact;
   background: #E3D5CA;
   border-radius: 1rem;
-  -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1), -0.5px 1px 1px 1px rgba(0, 0, 0, 0.1);
-          box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1), -0.5px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1), -0.03125rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1), -0.03125rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1);
   -webkit-transform: scale(1, 1);
       -ms-transform: scale(1, 1);
           transform: scale(1, 1);
@@ -253,6 +253,36 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-transform: scale(1, 1);
+      -ms-transform: scale(1, 1);
+          transform: scale(1, 1);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 0.75s;
+       -o-transition-duration: 0.75s;
+          transition-duration: 0.75s;
+  -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+          transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.contact__item:hover {
+  -webkit-transform: scale(1.008, 1.008);
+      -ms-transform: scale(1.008, 1.008);
+          transform: scale(1.008, 1.008);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 0.75s;
+       -o-transition-duration: 0.75s;
+          transition-duration: 0.75s;
+  -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+          transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .contact__icon {
   width: 1.1875rem;
@@ -277,8 +307,8 @@ body {
   grid-area: projects;
   background: #E3D5CA;
   border-radius: 1rem;
-  -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1), -0.5px 1px 1px 1px rgba(0, 0, 0, 0.1);
-          box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1), -0.5px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1), -0.03125rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1), -0.03125rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1);
   -webkit-transform: scale(1, 1);
       -ms-transform: scale(1, 1);
           transform: scale(1, 1);
@@ -315,8 +345,8 @@ body {
   padding: 1rem 1.5rem;
   background: #D5BDAF;
   border-radius: 0.625rem;
-  -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2), -0.5px 1px 1px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2), -0.5px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.2), -0.03125rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.2), -0.03125rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.2);
   display: grid;
   grid-template-columns: 16.125rem 1fr;
   grid-template-rows: 6rem;
@@ -396,8 +426,8 @@ body {
   padding-bottom: 1.5rem;
   background: #E3D5CA;
   border-radius: 1rem;
-  -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1), -0.5px 1px 1px 1px rgba(0, 0, 0, 0.1);
-          box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1), -0.5px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1), -0.03125rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1), -0.03125rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1);
   -webkit-transform: scale(1, 1);
       -ms-transform: scale(1, 1);
           transform: scale(1, 1);
@@ -440,8 +470,8 @@ body {
   padding: 1.5rem;
   background: #D5BDAF;
   border-radius: 0.625rem;
-  -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2), -0.5px 1px 1px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2), -0.5px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.2), -0.03125rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.2), -0.03125rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.2);
   display: grid;
   grid-template-columns: 5rem 1fr;
   grid-template-rows: 1.3125rem 1fr;
@@ -511,8 +541,8 @@ body {
 .education {
   background: #E3D5CA;
   border-radius: 1rem;
-  -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1), -0.5px 1px 1px 1px rgba(0, 0, 0, 0.1);
-          box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1), -0.5px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1), -0.03125rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1), -0.03125rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1);
   -webkit-transform: scale(1, 1);
       -ms-transform: scale(1, 1);
           transform: scale(1, 1);
@@ -594,8 +624,8 @@ body {
 .academic-path {
   background: #E3D5CA;
   border-radius: 1rem;
-  -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1), -0.5px 1px 1px 1px rgba(0, 0, 0, 0.1);
-          box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1), -0.5px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1), -0.03125rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1), -0.03125rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1);
   -webkit-transform: scale(1, 1);
       -ms-transform: scale(1, 1);
           transform: scale(1, 1);
@@ -672,8 +702,8 @@ body {
   padding: 1rem 0 1.5rem;
   background: #E3D5CA;
   border-radius: 1rem 1rem 0 0;
-  -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1), -0.5px 1px 1px 1px rgba(0, 0, 0, 0.1);
-          box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1), -0.5px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1), -0.03125rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1), -0.03125rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1);
   display: grid;
   justify-items: center;
   gap: 0.5625rem;
