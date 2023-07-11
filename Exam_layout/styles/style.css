@@ -55,26 +55,26 @@ body {
   border-radius: 0.8333333333rem;
   -webkit-box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1);
           box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1);
-  -webkit-transition: text-shadow 0.15s ease, -webkit-transform 0.15s ease;
-  transition: text-shadow 0.15s ease, -webkit-transform 0.15s ease;
-  -o-transition: text-shadow 0.15s ease, transform 0.15s ease;
-  transition: text-shadow 0.15s ease, transform 0.15s ease;
-  transition: text-shadow 0.15s ease, transform 0.15s ease, -webkit-transform 0.15s ease;
   text-shadow: none;
   -webkit-transform: scale(1, 1);
       -ms-transform: scale(1, 1);
           transform: scale(1, 1);
-}
-.navigation__link:hover {
   -webkit-transition: text-shadow 0.15s ease, -webkit-transform 0.15s ease;
   transition: text-shadow 0.15s ease, -webkit-transform 0.15s ease;
   -o-transition: text-shadow 0.15s ease, transform 0.15s ease;
   transition: text-shadow 0.15s ease, transform 0.15s ease;
   transition: text-shadow 0.15s ease, transform 0.15s ease, -webkit-transform 0.15s ease;
+}
+.navigation__link:hover {
   text-shadow: 0 -0.0416666667rem rgba(0, 0, 0, 0.3), 0 0 0.1666666667rem rgba(255, 255, 255, 0.6);
   -webkit-transform: scale(1.03, 1.03);
       -ms-transform: scale(1.03, 1.03);
           transform: scale(1.03, 1.03);
+  -webkit-transition: text-shadow 0.15s ease, -webkit-transform 0.15s ease;
+  transition: text-shadow 0.15s ease, -webkit-transform 0.15s ease;
+  -o-transition: text-shadow 0.15s ease, transform 0.15s ease;
+  transition: text-shadow 0.15s ease, transform 0.15s ease;
+  transition: text-shadow 0.15s ease, transform 0.15s ease, -webkit-transform 0.15s ease;
 }
 .navigation__link:active {
   -webkit-box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1), 0 0 0.2916666667rem rgba(0, 0, 0, 0.3);
@@ -140,28 +140,28 @@ body {
 .mesh__item {
   background: #B59F7F;
   border-radius: 0.8333333333rem;
-  -webkit-transition: -webkit-box-shadow 0.15s ease, -webkit-transform 0.15s ease;
-  transition: -webkit-box-shadow 0.15s ease, -webkit-transform 0.15s ease;
-  -o-transition: box-shadow 0.15s ease, transform 0.15s ease;
-  transition: box-shadow 0.15s ease, transform 0.15s ease;
-  transition: box-shadow 0.15s ease, transform 0.15s ease, -webkit-box-shadow 0.15s ease, -webkit-transform 0.15s ease;
   -webkit-box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1);
           box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1);
   -webkit-transform: scale(1, 1);
       -ms-transform: scale(1, 1);
           transform: scale(1, 1);
-}
-.mesh__item:hover {
   -webkit-transition: -webkit-box-shadow 0.15s ease, -webkit-transform 0.15s ease;
   transition: -webkit-box-shadow 0.15s ease, -webkit-transform 0.15s ease;
   -o-transition: box-shadow 0.15s ease, transform 0.15s ease;
   transition: box-shadow 0.15s ease, transform 0.15s ease;
   transition: box-shadow 0.15s ease, transform 0.15s ease, -webkit-box-shadow 0.15s ease, -webkit-transform 0.15s ease;
+}
+.mesh__item:hover {
   -webkit-box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1), 0 0 0.2916666667rem rgba(0, 0, 0, 0.3);
           box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1), 0 0 0.2916666667rem rgba(0, 0, 0, 0.3);
   -webkit-transform: scale(1.03, 1.03);
       -ms-transform: scale(1.03, 1.03);
           transform: scale(1.03, 1.03);
+  -webkit-transition: -webkit-box-shadow 0.15s ease, -webkit-transform 0.15s ease;
+  transition: -webkit-box-shadow 0.15s ease, -webkit-transform 0.15s ease;
+  -o-transition: box-shadow 0.15s ease, transform 0.15s ease;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+  transition: box-shadow 0.15s ease, transform 0.15s ease, -webkit-box-shadow 0.15s ease, -webkit-transform 0.15s ease;
 }
 .mesh__item--change-size {
   margin-left: 4.5833333333rem;
@@ -201,31 +201,35 @@ body {
   font-size: 0.8333333333rem;
   padding: 0.1666666667rem 0 0 1rem;
 }
+.delivery__telephone-number-link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
 .delivery__min {
   font-size: 0.8333333333rem;
   padding: 0 0 0.625rem 1rem;
 }
-.delivery__name, .delivery__time, .delivery__discount, .delivery__data, .delivery__telephone, .delivery__min {
+.delivery__name, .delivery__time, .delivery__discount, .delivery__data-element, .delivery__telephone, .delivery__min {
+  text-shadow: none;
+  -webkit-transform: scale(1, 1);
+      -ms-transform: scale(1, 1);
+          transform: scale(1, 1);
   -webkit-transition: text-shadow 5s ease, -webkit-transform 0.15s ease;
   transition: text-shadow 5s ease, -webkit-transform 0.15s ease;
   -o-transition: text-shadow 5s ease, transform 0.15s ease;
   transition: text-shadow 5s ease, transform 0.15s ease;
   transition: text-shadow 5s ease, transform 0.15s ease, -webkit-transform 0.15s ease;
-  text-shadow: none;
-  -webkit-transform: scale(1, 1);
-      -ms-transform: scale(1, 1);
-          transform: scale(1, 1);
 }
-.delivery__name:hover, .delivery__time:hover, .delivery__discount:hover, .delivery__data:hover, .delivery__telephone:hover, .delivery__min:hover {
+.delivery__name:hover, .delivery__time:hover, .delivery__discount:hover, .delivery__data-element:hover, .delivery__telephone:hover, .delivery__min:hover {
+  text-shadow: 0 -0.0416666667rem rgba(0, 0, 0, 0.3), 0 0 0.1666666667rem rgba(255, 255, 255, 0.6);
+  -webkit-transform: scale(1.03, 1.03);
+      -ms-transform: scale(1.03, 1.03);
+          transform: scale(1.03, 1.03);
   -webkit-transition: text-shadow 0.15s ease, -webkit-transform 0.15s ease;
   transition: text-shadow 0.15s ease, -webkit-transform 0.15s ease;
   -o-transition: text-shadow 0.15s ease, transform 0.15s ease;
   transition: text-shadow 0.15s ease, transform 0.15s ease;
   transition: text-shadow 0.15s ease, transform 0.15s ease, -webkit-transform 0.15s ease;
-  text-shadow: 0 -0.0416666667rem rgba(0, 0, 0, 0.3), 0 0 0.1666666667rem rgba(255, 255, 255, 0.6);
-  -webkit-transform: scale(1.05, 1.05);
-      -ms-transform: scale(1.05, 1.05);
-          transform: scale(1.05, 1.05);
 }
 
 .food {
@@ -250,24 +254,24 @@ body {
 .food__image {
   width: 11.0833333333rem;
   height: 8.3333333333rem;
-  -webkit-transition: -webkit-transform 0.15s ease;
-  transition: -webkit-transform 0.15s ease;
-  -o-transition: transform 0.15s ease;
-  transition: transform 0.15s ease;
-  transition: transform 0.15s ease, -webkit-transform 0.15s ease;
   -webkit-transform: scale(1, 1);
       -ms-transform: scale(1, 1);
           transform: scale(1, 1);
-}
-.food__image:active {
   -webkit-transition: -webkit-transform 0.15s ease;
   transition: -webkit-transform 0.15s ease;
   -o-transition: transform 0.15s ease;
   transition: transform 0.15s ease;
   transition: transform 0.15s ease, -webkit-transform 0.15s ease;
+}
+.food__image:active {
   -webkit-transform: scale(1.3, 1.3);
       -ms-transform: scale(1.3, 1.3);
           transform: scale(1.3, 1.3);
+  -webkit-transition: -webkit-transform 0.15s ease;
+  transition: -webkit-transform 0.15s ease;
+  -o-transition: transform 0.15s ease;
+  transition: transform 0.15s ease;
+  transition: transform 0.15s ease, -webkit-transform 0.15s ease;
 }
 .food__buy {
   font-size: 1.5rem;
@@ -280,16 +284,16 @@ body {
   border-radius: 0.8333333333rem;
   -webkit-box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1);
           box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1);
+  text-shadow: none;
   -webkit-transition: text-shadow 0.15s ease;
   -o-transition: text-shadow 0.15s ease;
   transition: text-shadow 0.15s ease;
-  text-shadow: none;
 }
 .food__buy:hover {
+  text-shadow: 0 -0.0416666667rem rgba(0, 0, 0, 0.3), 0 0 0.1666666667rem rgba(255, 255, 255, 0.6);
   -webkit-transition: text-shadow 0.15s ease;
   -o-transition: text-shadow 0.15s ease;
   transition: text-shadow 0.15s ease;
-  text-shadow: 0 -0.0416666667rem rgba(0, 0, 0, 0.3), 0 0 0.1666666667rem rgba(255, 255, 255, 0.6);
 }
 .food__buy:active {
   -webkit-box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1), 0 0 0.2916666667rem rgba(0, 0, 0, 0.3);
@@ -339,26 +343,26 @@ body {
   border-radius: 0.8333333333rem;
   -webkit-box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1);
           box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1);
-  -webkit-transition: text-shadow 0.15s ease, -webkit-transform 0.15s ease;
-  transition: text-shadow 0.15s ease, -webkit-transform 0.15s ease;
-  -o-transition: text-shadow 0.15s ease, transform 0.15s ease;
-  transition: text-shadow 0.15s ease, transform 0.15s ease;
-  transition: text-shadow 0.15s ease, transform 0.15s ease, -webkit-transform 0.15s ease;
   text-shadow: none;
   -webkit-transform: scale(1, 1);
       -ms-transform: scale(1, 1);
           transform: scale(1, 1);
-}
-.site-footer__link-about:hover {
   -webkit-transition: text-shadow 0.15s ease, -webkit-transform 0.15s ease;
   transition: text-shadow 0.15s ease, -webkit-transform 0.15s ease;
   -o-transition: text-shadow 0.15s ease, transform 0.15s ease;
   transition: text-shadow 0.15s ease, transform 0.15s ease;
   transition: text-shadow 0.15s ease, transform 0.15s ease, -webkit-transform 0.15s ease;
+}
+.site-footer__link-about:hover {
   text-shadow: 0 -0.0416666667rem rgba(0, 0, 0, 0.3), 0 0 0.1666666667rem rgba(255, 255, 255, 0.6);
   -webkit-transform: scale(1.03, 1.03);
       -ms-transform: scale(1.03, 1.03);
           transform: scale(1.03, 1.03);
+  -webkit-transition: text-shadow 0.15s ease, -webkit-transform 0.15s ease;
+  transition: text-shadow 0.15s ease, -webkit-transform 0.15s ease;
+  -o-transition: text-shadow 0.15s ease, transform 0.15s ease;
+  transition: text-shadow 0.15s ease, transform 0.15s ease;
+  transition: text-shadow 0.15s ease, transform 0.15s ease, -webkit-transform 0.15s ease;
 }
 .site-footer__link-about:active {
   -webkit-box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1), 0 0 0.2916666667rem rgba(0, 0, 0, 0.3);
@@ -372,28 +376,28 @@ body {
   width: 2.6666666667rem;
   height: 2.6666666667rem;
   border-radius: 0.8333333333rem;
-  -webkit-transition: -webkit-box-shadow 0.15s ease, -webkit-transform 0.15s ease;
-  transition: -webkit-box-shadow 0.15s ease, -webkit-transform 0.15s ease;
-  -o-transition: box-shadow 0.15s ease, transform 0.15s ease;
-  transition: box-shadow 0.15s ease, transform 0.15s ease;
-  transition: box-shadow 0.15s ease, transform 0.15s ease, -webkit-box-shadow 0.15s ease, -webkit-transform 0.15s ease;
   -webkit-box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1);
           box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1);
   -webkit-transform: scale(1, 1);
       -ms-transform: scale(1, 1);
           transform: scale(1, 1);
-}
-.site-footer__social-image:hover {
   -webkit-transition: -webkit-box-shadow 0.15s ease, -webkit-transform 0.15s ease;
   transition: -webkit-box-shadow 0.15s ease, -webkit-transform 0.15s ease;
   -o-transition: box-shadow 0.15s ease, transform 0.15s ease;
   transition: box-shadow 0.15s ease, transform 0.15s ease;
   transition: box-shadow 0.15s ease, transform 0.15s ease, -webkit-box-shadow 0.15s ease, -webkit-transform 0.15s ease;
+}
+.site-footer__social-image:hover {
   -webkit-box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1), 0 0 0.2916666667rem rgba(0, 0, 0, 0.3);
           box-shadow: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1), 0 0 0.2916666667rem rgba(0, 0, 0, 0.3);
   -webkit-transform: scale(1.03, 1.03);
       -ms-transform: scale(1.03, 1.03);
           transform: scale(1.03, 1.03);
+  -webkit-transition: -webkit-box-shadow 0.15s ease, -webkit-transform 0.15s ease;
+  transition: -webkit-box-shadow 0.15s ease, -webkit-transform 0.15s ease;
+  -o-transition: box-shadow 0.15s ease, transform 0.15s ease;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+  transition: box-shadow 0.15s ease, transform 0.15s ease, -webkit-box-shadow 0.15s ease, -webkit-transform 0.15s ease;
 }
 
 @media screen and (max-width: 1030px) {

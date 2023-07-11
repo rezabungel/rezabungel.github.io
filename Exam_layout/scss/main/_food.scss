@@ -1,0 +1,49 @@
+// Информация о блюдах (в основной части)
+.food {
+    font-size: 1.6666666667rem;
+    color: #000000;
+
+    margin-top: 1.3333333333rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 17rem;
+
+    &__image {
+        width: 11.08333333333rem;
+        height: 8.3333333333rem;
+        @include scale_down;
+    }
+
+    // При нажатии на фото еды, фото станет больше
+    &__image:active {
+        @include image_scale_up;
+    }
+
+    &__name {}
+
+    &__buy {
+        font-size: 1.5rem;
+        color: #FFFFFF;
+
+        text-decoration: none; // Выключаем подсветку ссылки
+
+        background: $bg_link-btn;
+        line-height: 3.3333333333rem;
+        width: 11.08333333333rem;
+        text-align: center;
+        border-radius: $br;
+        box-shadow: $bs_main;
+        @include text-unglow;
+    }
+
+    &__buy:hover {
+        @include text-glow;
+    }
+
+    &__buy:active {
+        box-shadow: $bs_pseudo-class;
+    }
+}

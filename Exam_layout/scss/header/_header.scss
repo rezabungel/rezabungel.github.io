@@ -1,0 +1,8 @@
+// Шапка
+.header {
+    background: $bg_component;
+    padding-bottom: 2rem;
+}
+
+@import 'navigation';
+@import 'head';

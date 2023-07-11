@@ -1,0 +1,16 @@
+// Объявление переменных
+
+// bg - background
+$bg_main: #F2DBAD;
+$bg_component: #B59F7F; // header, mesh__item, footer
+$bg_link-btn: #605545;
+
+// br - border-radius
+$br: 0.8333333333rem;
+
+// bs - box-shadow
+$bs_main: 0.3333333333rem 0.3333333333rem 0.4166666667rem rgba(0, 0, 0, 0.1);
+$bs_pseudo-class: $bs_main, 0 0 0.2916666667rem rgba(0, 0, 0, 0.3); // hover, active
+
+// ts - text-shadow
+$ts_pseudo-class: 0 -0.04166666667rem rgba(0, 0, 0, 0.3), 0 0 0.1666666667rem rgba(255, 255, 255, 0.6); // hover

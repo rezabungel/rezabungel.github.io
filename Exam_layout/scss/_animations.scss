@@ -1,0 +1,60 @@
+@mixin text-glow {
+    text-shadow: $ts_pseudo-class;
+    transition: text-shadow 0.15s ease;
+}
+
+@mixin text-unglow {
+    text-shadow: none;
+    transition: text-shadow 0.15s ease;
+}
+
+// ----------
+
+@mixin image_scale_up {
+    transform: scale(1.3, 1.3);
+    transition: transform 0.15s ease;
+}
+
+@mixin scale_up {
+    transform: scale(1.03, 1.03);
+    transition: transform 0.15s ease;
+}
+
+@mixin scale_down {
+    transform: scale(1.0, 1.0);
+    transition: transform 0.15s ease;
+}
+
+// ----------
+
+@mixin scale_up_and_text_glow {
+    text-shadow: $ts_pseudo-class;
+    transform: scale(1.03, 1.03);
+    transition: text-shadow 0.15s ease, transform 0.15s ease;
+}
+
+@mixin scale_down_and_long_text_unglow {
+    text-shadow: none;
+    transform: scale(1.0, 1.0);
+    transition: text-shadow 5s ease, transform 0.15s ease;
+}
+
+@mixin scale_down_and_text_unglow {
+    text-shadow: none;
+    transform: scale(1.0, 1.0);
+    transition: text-shadow 0.15s ease, transform 0.15s ease;
+}
+
+// ----------
+
+@mixin scale_up_and_shadow_glow {
+    box-shadow: $bs_pseudo-class;
+    transform: scale(1.03, 1.03);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+@mixin scale_down_and_shadow_unglow {
+    box-shadow: $bs_main;
+    transform: scale(1.0, 1.0);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+}

@@ -1,0 +1,21 @@
+.mesh {
+    display: grid;
+    grid-template-columns: 17.3333333333rem repeat(2, 12.75rem);
+    grid-template-rows: repeat(3, 19.6666666667rem);
+    justify-content: space-between;
+    grid-row-gap: 2.6666666667rem; // Расстояние между ячейками по вертикали
+
+    &__item {
+        background: $bg_component;
+        border-radius: $br;
+        @include scale_down_and_shadow_unglow;
+    }
+
+    &__item:hover {
+        @include scale_up_and_shadow_glow;
+    }
+
+    &__item--change-size {
+        margin-left: 4.5833333333rem;
+    }
+}

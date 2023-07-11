@@ -1,0 +1,64 @@
+// Информация о доставке (в основной части)
+.delivery {
+    color: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 19.6666666667rem;
+
+    &__name {
+        font-size: 2.3333333333rem;
+        padding-left: 2.9583333333rem;
+    }
+
+    &__time {
+        font-size: 1.1666666667rem;
+        padding: 0.375rem 0 0 1rem;
+    }
+
+    &__discount {
+        font-size: 1.08333333333rem;
+        padding: 0.2083333333rem 0 0 1rem;
+    }
+
+    &__data {
+        font-size: 1.08333333333rem;
+        padding: 0 0 0 2.04166666667rem;
+    }
+
+    &__data-element {}
+
+    &__telephone {
+        font-size: 0.8333333333rem;
+        padding: 0.1666666667rem 0 0 1rem;
+    }
+
+    &__telephone-number-link {
+        color: #FFFFFF;
+        text-decoration: none; // Выключаем подсветку ссылки
+    }
+
+    &__min {
+        font-size: 0.8333333333rem;
+        padding: 0 0 0.625rem 1rem;
+    }
+
+    &__name,
+    &__time,
+    &__discount,
+    &__data-element,
+    &__telephone,
+    &__min {
+        @include scale_down_and_long_text_unglow;
+    }
+
+    &__name:hover,
+    &__time:hover,
+    &__discount:hover,
+    &__data-element:hover,
+    &__telephone:hover,
+    &__min:hover {
+        @include scale_up_and_text_glow;
+    }
+}

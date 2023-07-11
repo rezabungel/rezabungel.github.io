@@ -1,0 +1,43 @@
+// Основное меню
+.navigation {
+
+    &__list {
+        list-style: none;
+        height: 4.6666666667rem; // Размер лога + отступ сверху 89+23=112px/24px=4.6666666667rem
+
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+
+    &__logo {
+        width: 8.1666666667rem;
+        flex-basis: 8.1666666667rem;
+    }
+
+    &__element {}
+
+    &__link {
+        display: inline-block;
+        font-size: 1.1666666667rem;
+        color: #FFFFFF;
+
+        text-decoration: none; // Выключаем подсветку ссылки
+
+        background: $bg_link-btn;
+        line-height: 2.6666666667rem;
+        width: 8.1666666667rem;
+        text-align: center;
+        border-radius: $br;
+        box-shadow: $bs_main;
+        @include scale_down_and_text_unglow;
+    }
+
+    &__link:hover {
+        @include scale_up_and_text_glow;
+    }
+
+    &__link:active {
+        box-shadow: $bs_pseudo-class;
+    }
+}

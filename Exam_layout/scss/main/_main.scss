@@ -1,0 +1,9 @@
+// Основная часть
+.main {
+    background: $bg_main;
+    padding: 3rem 0 3.5rem 0;
+}
+
+@import 'mesh';
+@import 'delivery';
+@import 'food';

@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font: 400 1.5rem "Roboto", sans-serif;
+    background: $bg_component;
+}
+
+.content {
+    max-width: 54rem; // 1296px/24px = 54rem -> 1296px нужно | 24px font-size в html
+    margin: 0 auto;
+    position: relative; // Для позиционирования head
+}

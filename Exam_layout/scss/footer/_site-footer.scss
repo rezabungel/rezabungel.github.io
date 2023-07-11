@@ -1,0 +1,74 @@
+.site-footer {
+    font-size: 1.1666666667rem;
+    color: #000000;
+
+    display: flex;
+    justify-content: space-between;
+
+    &__logo {
+        width: 17.3333333333rem;
+        flex-basis: 17.3333333333rem;
+    }
+
+    &__info {}
+
+    &__address {
+        padding-top: 0.9583333333rem;
+    }
+
+    &__telephone {
+        padding: 1.9583333333rem 0 0 0.04166666667rem;
+    }
+
+    &__telephone-number-link {
+        color: #000000;
+        text-decoration: none; // Выключаем подсветку ссылки
+    }
+
+    &__link {}
+
+    &__link-about {
+        margin: 0.9583333333rem 0 0.75rem 0;
+
+        display: block;
+        font-size: 1.6666666667rem;
+        color: #FFFFFF;
+
+        text-decoration: none; // Выключаем подсветку ссылки
+
+        background: $bg_link-btn;
+        line-height: 2.6666666667rem;
+        width: 12.75rem;
+        text-align: center;
+        border-radius: $br;
+        box-shadow: $bs_main;
+        @include scale_down_and_text_unglow;
+    }
+
+    &__link-about:hover {
+        @include scale_up_and_text_glow;
+    }
+
+    &__link-about:active {
+        box-shadow: $bs_pseudo-class
+    }
+
+    &__link-social {}
+
+    // С помощью псевдоклассов выбираем все, кроме последней ссылки-картинки в "site-footer__link-social"
+    &__link-social:not(:last-of-type) {
+        float: left;
+        margin-right: 0.6945833333rem;
+    }
+
+    &__social-image {
+        width: 2.6666666667rem;
+        height: 2.6666666667rem;
+        border-radius: $br;
+        @include scale_down_and_shadow_unglow;
+    }
+
+    &__social-image:hover {
+        @include scale_up_and_shadow_glow;
+    }
+}
