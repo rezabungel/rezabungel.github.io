@@ -61,14 +61,11 @@ body {
           transform: scale(1, 1);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .info__photo:hover {
@@ -77,14 +74,11 @@ body {
           transform: scale(1.025, 1.025);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .info__name {
@@ -94,14 +88,11 @@ body {
           transform: scale(1, 1);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .info__name:hover {
@@ -110,14 +101,11 @@ body {
           transform: scale(1.025, 1.025);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .info__link {
@@ -140,14 +128,11 @@ body {
           transform: translateY(0);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .info__social-image:hover {
@@ -156,14 +141,11 @@ body {
           transform: translateY(-0.5rem);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
@@ -178,14 +160,11 @@ body {
           transform: scale(1, 1);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .about-me:hover {
@@ -194,14 +173,11 @@ body {
           transform: scale(1.025, 1.025);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .about-me__text {
@@ -222,14 +198,11 @@ body {
           transform: scale(1, 1);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .contact:hover {
@@ -238,14 +211,11 @@ body {
           transform: scale(1.025, 1.025);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .contact__item {
@@ -258,14 +228,11 @@ body {
           transform: scale(1, 1);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .contact__item:hover {
@@ -274,14 +241,11 @@ body {
           transform: scale(1.008, 1.008);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .contact__icon {
@@ -314,14 +278,11 @@ body {
           transform: scale(1, 1);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .projects:hover {
@@ -330,14 +291,11 @@ body {
           transform: scale(1.008, 1.008);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .projects__item {
@@ -356,14 +314,11 @@ body {
           transform: scale(1, 1);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .projects__item:hover {
@@ -372,14 +327,11 @@ body {
           transform: scale(1.008, 1.008);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .projects__name {
@@ -433,14 +385,11 @@ body {
           transform: scale(1, 1);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .skills:hover {
@@ -449,14 +398,11 @@ body {
           transform: scale(1.008, 1.008);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .skills__mesh {
@@ -482,14 +428,11 @@ body {
           transform: scale(1, 1);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .skills__element:hover {
@@ -498,14 +441,11 @@ body {
           transform: scale(1.025, 1.025);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .skills__logo {
@@ -548,14 +488,11 @@ body {
           transform: scale(1, 1);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .education:hover {
@@ -564,14 +501,11 @@ body {
           transform: scale(1.025, 1.025);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .education__history {
@@ -586,14 +520,11 @@ body {
           transform: scale(1, 1);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .education__element:hover {
@@ -602,14 +533,11 @@ body {
           transform: scale(1.008, 1.008);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .education__name {
@@ -631,14 +559,11 @@ body {
           transform: scale(1, 1);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .academic-path:hover {
@@ -647,14 +572,11 @@ body {
           transform: scale(1.025, 1.025);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .academic-path__list {
@@ -667,14 +589,11 @@ body {
           transform: scale(1, 1);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .academic-path__list-element:not(:last-of-type) {
@@ -686,14 +605,11 @@ body {
           transform: scale(1.008, 1.008);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
@@ -712,14 +628,11 @@ body {
           transform: scale(1, 1);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .footer:hover {
@@ -728,14 +641,11 @@ body {
           transform: scale(1.025, 1.025);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.75s;
-       -o-transition-duration: 0.75s;
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-       -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .footer__info {
