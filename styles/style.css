@@ -338,6 +338,9 @@ body {
   font-size: 1.125rem;
   font-weight: 700;
 }
+.projects__name--short {
+  height: 2.625rem;
+}
 .projects__link-group {
   padding: 0.25rem 0 0.4375rem 0;
 }
