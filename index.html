@@ -77,110 +77,142 @@
                 </div>
 
                 <div class="projects">
-                    <div class="projects__title title">Projects</div>
-                    <div class="projects__item">
-                        <div class="projects__left-side">
-                            <div class="projects__name">
-                                Signal analysis and processing | 2023
+                    <div class="projects__header">
+                        <div class="projects__title title">Projects</div>
+                        <div class="projects__control">
+                            <div class="projects__control-element">
+                                <img class="projects__control-arrow projects__control-arrow--up" src="./images/Icon_Control/arrow.svg" alt="arrow up">
                             </div>
-                            <div class="projects__link-group">
-                                <a class="projects__source" href="https://github.com/rezabungel/Signal-analysis-and-processing" target="_blank">source</a>
-                                <!-- <a class="projects__link" href="#" target="_blank">link</a> -->
+                            <div class="projects__control-element">
+                                <img class="projects__control-arrow projects__control-arrow--down" src="./images/Icon_Control/arrow.svg" alt="arrow down">
                             </div>
-                            <div class="projects__tools-group">
-                                <img class="projects__tools" src="./images/Icon_Skills/2_Python.svg" alt="python">
-                            </div>
-                        </div>
-                        <div class="projects__description">
-                            This project implemented recording and generation of signals,
-                            signal processing using discrete Fourier transforms, concatenation
-                            of signals, plotting of signals and discrete Fourier transforms, and
-                            playback of signals through speakers. One of the implementations
-                            of DFT and iDFT was implemented using multicore processing.
                         </div>
                     </div>
-                    <div class="projects__item">
-                        <div class="projects__left-side">
-                            <div class="projects__name">
-                                Course: Frontend Development of IT Applications | 2023
+                    <div class="projects__items">
+                        <div class="projects__item">
+                            <div class="projects__left-side">
+                                <div class="projects__name">
+                                    Spam detection using Multinomial Naive Bayes classifier | 2023
+                                </div>
+                                <div class="projects__link-group projects__link-group--one-line">
+                                    <a class="projects__source" href="https://github.com/rezabungel/Spam-detection-using-MultinomialNB" target="_blank">source</a>
+                                    <!-- <a class="projects__link" href="#" target="_blank">link</a> -->
+                                </div>
+                                <div class="projects__tools-group projects__tools-group--one-line">
+                                    <img class="projects__tools" src="./images/Icon_Skills/2_Python.svg" alt="python">
+                                </div>
                             </div>
-                            <div class="projects__link-group">
-                                <a class="projects__source" href="https://github.com/rezabungel/rezabungel.github.io" target="_blank">source</a>
-                                <a class="projects__link" href="./Exam_layout/exam_layout.html" target="_blank">link</a>
-                            </div>
-                            <div class="projects__tools-group">
-                                <img class="projects__tools" src="./images/Icon_Skills/HTML.svg" alt="HTML">
-                                <img class="projects__tools" src="./images/Icon_Skills/CSS.svg" alt="CSS">
-                                <img class="projects__tools" src="./images/Icon_Skills/SASS.svg" alt="SASS">
-                            </div>
-                        </div>
-                        <div class="projects__description">
-                            This project implemented the website layout based on a previously
-                            created design in Figma. The website was developed using the
-                            BEM (Block Element Modifier) methodology, and CSS was written
-                            using the SCSS preprocessor.
-                        </div>
-                    </div>
-                    <div class="projects__item">
-                        <div class="projects__left-side">
-                            <div class="projects__name projects__name--short">
-                                Intelligent ChatBot | 2022
-                            </div>
-                            <div class="projects__link-group">
-                                <a class="projects__source" href="https://github.com/rezabungel/Intelligent-ChatBot" target="_blank">source</a>
-                                <a class="projects__link" href="https://t.me/CourseWorkIntelligentChatBot" target="_blank">link</a>
-                            </div>
-                            <div class="projects__tools-group">
-                                <img class="projects__tools" src="./images/Icon_Skills/2_Python.svg" alt="python">
+                            <div class="projects__description">
+                                This project implemented the Multinomial Naive Bayes classifier to
+                                solve the NLP problem of text (message) classification into spam
+                                or ham categories. In this classifier, problems such as "arithmetic
+                                overflow" and "unknown words" were resolved. Model training was
+                                implemented using parallelization technology.
                             </div>
                         </div>
-                        <div class="projects__description">
-                            Coursework on the Basics of Artificial Intelligence in the 5th
-                            semester. This project implemented Natural Language
-                            Processing (NLP) with the "bag-of-words" method, a feedforward
-                            neural network with two hidden layers, and the development of a
-                            Telegram bot for communication.
-                        </div>
-                    </div>
-                    <div class="projects__item">
-                        <div class="projects__left-side">
-                            <div class="projects__name">
-                                Bellman-Ford algorithm for finding the shortest path
-                                in a graph | 2021
+                        <div class="projects__item">
+                            <div class="projects__left-side">
+                                <div class="projects__name">
+                                    Signal analysis and processing | 2023
+                                </div>
+                                <div class="projects__link-group">
+                                    <a class="projects__source" href="https://github.com/rezabungel/Signal-analysis-and-processing" target="_blank">source</a>
+                                    <!-- <a class="projects__link" href="#" target="_blank">link</a> -->
+                                </div>
+                                <div class="projects__tools-group">
+                                    <img class="projects__tools" src="./images/Icon_Skills/2_Python.svg" alt="python">
+                                </div>
                             </div>
-                            <div class="projects__link-group projects__link-group--one-line">
-                                <a class="projects__source" href="https://github.com/rezabungel/Bellman-Ford-algorithm-for-finding-the-shortest-path-in-a-graph_Coursework" target="_blank">source</a>
-                                <!-- <a class="projects__link" href="#" target="_blank">link</a> -->
-                            </div>
-                            <div class="projects__tools-group projects__tools-group--one-line">
-                                <img class="projects__tools" src="./images/Icon_Skills/1_Cpp.svg" alt="C++">
-                            </div>
-                        </div>
-                        <div class="projects__description">
-                            Coursework on Programming Methods in the 3rd semester. This
-                            project implemented the Bellman-Ford algorithm for finding the
-                            shortest path in a graph. Additionally, code optimization was
-                            performed to reduce the algorithm's execution time.
-                        </div>
-                    </div>
-                    <div class="projects__item">
-                        <div class="projects__left-side">
-                            <div class="projects__name">
-                                Implementation of encryption algorithms | 2021
-                            </div>
-                            <div class="projects__link-group">
-                                <a class="projects__source" href="https://github.com/rezabungel/Implementation_of_encryption_algorithms_Coursework" target="_blank">source</a>
-                                <!-- <a class="projects__link" href="#" target="_blank">link</a> -->
-                            </div>
-                            <div class="projects__tools-group">
-                                <img class="projects__tools" src="./images/Icon_Skills/1_Cpp.svg" alt="C++">
+                            <div class="projects__description">
+                                This project implemented recording and generation of signals,
+                                signal processing using discrete Fourier transforms, concatenation
+                                of signals, plotting of signals and discrete Fourier transforms, and
+                                playback of signals through speakers. One of the implementations
+                                of DFT and iDFT was implemented using multicore processing.
                             </div>
                         </div>
-                        <div class="projects__description">
-                            Coursework on Programming in the 2nd semester. This project
-                            implemented the following algorithms as classes: Caesar Cipher,
-                            Affine Cipher, Vigenère Cipher, Playfair Cipher, Polybius Cipher, and
-                            Hill Cipher.
+                        <div class="projects__item">
+                            <div class="projects__left-side">
+                                <div class="projects__name">
+                                    Course: Frontend Development of IT Applications | 2023
+                                </div>
+                                <div class="projects__link-group">
+                                    <a class="projects__source" href="https://github.com/rezabungel/rezabungel.github.io" target="_blank">source</a>
+                                    <a class="projects__link" href="./Exam_layout/exam_layout.html" target="_blank">link</a>
+                                </div>
+                                <div class="projects__tools-group">
+                                    <img class="projects__tools" src="./images/Icon_Skills/HTML.svg" alt="HTML">
+                                    <img class="projects__tools" src="./images/Icon_Skills/CSS.svg" alt="CSS">
+                                    <img class="projects__tools" src="./images/Icon_Skills/SASS.svg" alt="SASS">
+                                </div>
+                            </div>
+                            <div class="projects__description">
+                                This project implemented the website layout based on a previously
+                                created design in Figma. The website was developed using the
+                                BEM (Block Element Modifier) methodology, and CSS was written
+                                using the SCSS preprocessor.
+                            </div>
+                        </div>
+                        <div class="projects__item">
+                            <div class="projects__left-side">
+                                <div class="projects__name projects__name--short">
+                                    Intelligent ChatBot | 2022
+                                </div>
+                                <div class="projects__link-group">
+                                    <a class="projects__source" href="https://github.com/rezabungel/Intelligent-ChatBot" target="_blank">source</a>
+                                    <a class="projects__link" href="https://t.me/CourseWorkIntelligentChatBot" target="_blank">link</a>
+                                </div>
+                                <div class="projects__tools-group">
+                                    <img class="projects__tools" src="./images/Icon_Skills/2_Python.svg" alt="python">
+                                </div>
+                            </div>
+                            <div class="projects__description">
+                                Coursework on the Basics of Artificial Intelligence in the 5th
+                                semester. This project implemented Natural Language
+                                Processing (NLP) with the "bag-of-words" method, a feedforward
+                                neural network with two hidden layers, and the development of a
+                                Telegram bot for communication.
+                            </div>
+                        </div>
+                        <div class="projects__item">
+                            <div class="projects__left-side">
+                                <div class="projects__name">
+                                    Bellman-Ford algorithm for finding the shortest path in a graph | 2021
+                                </div>
+                                <div class="projects__link-group projects__link-group--one-line">
+                                    <a class="projects__source" href="https://github.com/rezabungel/Bellman-Ford-algorithm-for-finding-the-shortest-path-in-a-graph_Coursework" target="_blank">source</a>
+                                    <!-- <a class="projects__link" href="#" target="_blank">link</a> -->
+                                </div>
+                                <div class="projects__tools-group projects__tools-group--one-line">
+                                    <img class="projects__tools" src="./images/Icon_Skills/1_Cpp.svg" alt="C++">
+                                </div>
+                            </div>
+                            <div class="projects__description">
+                                Coursework on Programming Methods in the 3rd semester. This
+                                project implemented the Bellman-Ford algorithm for finding the
+                                shortest path in a graph. Additionally, code optimization was
+                                performed to reduce the algorithm's execution time.
+                            </div>
+                        </div>
+                        <div class="projects__item">
+                            <div class="projects__left-side">
+                                <div class="projects__name">
+                                    Implementation of encryption algorithms | 2021
+                                </div>
+                                <div class="projects__link-group">
+                                    <a class="projects__source" href="https://github.com/rezabungel/Implementation_of_encryption_algorithms_Coursework" target="_blank">source</a>
+                                    <!-- <a class="projects__link" href="#" target="_blank">link</a> -->
+                                </div>
+                                <div class="projects__tools-group">
+                                    <img class="projects__tools" src="./images/Icon_Skills/1_Cpp.svg" alt="C++">
+                                </div>
+                            </div>
+                            <div class="projects__description">
+                                Coursework on Programming in the 2nd semester. This project
+                                implemented the following algorithms as classes: Caesar Cipher,
+                                Affine Cipher, Vigenère Cipher, Playfair Cipher, Polybius Cipher, and
+                                Hill Cipher.
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -302,6 +334,8 @@
         </div>
 
     </div>
+
+    <script src="./scripts/projects-slider.js"></script>
 
 </body>
 

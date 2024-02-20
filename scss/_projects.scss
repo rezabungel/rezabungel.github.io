@@ -9,10 +9,67 @@
         @include small_scale_up;
     }
 
+    &__header {
+        position: relative;
+    }
+
     &__title {}
 
+    &__control {
+        position: absolute;
+        top: 1rem;
+        left: 30.5625rem;
+
+        display: flex;
+        justify-content: space-between;
+        width: 4rem;
+    }
+
+    &__control-element {
+        
+
+        height: 1.75rem;
+        width: 1.75rem;
+
+        background: $bg_block_el;
+        border-radius: $br_block_el;
+        box-shadow: $bs_block_el;
+
+        @include scale_down;
+    }
+
+    &__control-element:hover {
+        @include control_scale_up;
+    }
+
+    &__control-arrow{
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+
+    &__control-arrow--up{
+        transform: rotate(0deg);
+        cursor: n-resize;
+    }
+
+    &__control-arrow--down{
+        transform: rotate(180deg);
+        cursor: s-resize;
+    }
+
+    &__items {
+        height: 47.5rem;
+
+        display: grid;
+        grid-template-columns: 50.5rem;
+        grid-auto-rows: 8rem;
+        justify-content: center;
+        gap: 1.5rem;
+
+        overflow: hidden;
+    }
+
     &__item {
-        margin: 0 1.5rem 1.5rem;
         padding: 1rem 1.5rem;
 
         background: $bg_block_el;

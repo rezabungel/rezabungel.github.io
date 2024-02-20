@@ -298,8 +298,81 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
+.projects__header {
+  position: relative;
+}
+.projects__control {
+  position: absolute;
+  top: 1rem;
+  left: 30.5625rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 4rem;
+}
+.projects__control-element {
+  height: 1.75rem;
+  width: 1.75rem;
+  background: #D5BDAF;
+  border-radius: 0.625rem;
+  -webkit-box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.2), -0.03125rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.2), -0.03125rem 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale(1, 1);
+      -ms-transform: scale(1, 1);
+          transform: scale(1, 1);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 0.75s;
+          transition-duration: 0.75s;
+  -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+          transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.projects__control-element:hover {
+  -webkit-transform: scale(1.08, 1.08);
+      -ms-transform: scale(1.08, 1.08);
+          transform: scale(1.08, 1.08);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 0.75s;
+          transition-duration: 0.75s;
+  -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+          transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.projects__control-arrow {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+.projects__control-arrow--up {
+  -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+  cursor: n-resize;
+}
+.projects__control-arrow--down {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+  cursor: s-resize;
+}
+.projects__items {
+  height: 47.5rem;
+  display: grid;
+  grid-template-columns: 50.5rem;
+  grid-auto-rows: 8rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1.5rem;
+  overflow: hidden;
+}
 .projects__item {
-  margin: 0 1.5rem 1.5rem;
   padding: 1rem 1.5rem;
   background: #D5BDAF;
   border-radius: 0.625rem;

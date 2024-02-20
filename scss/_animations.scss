@@ -12,6 +12,13 @@
     transition-timing-function: $easeOutQuad;
 }
 
+@mixin control_scale_up {
+    transform: scale(1.080, 1.080);
+    transition-property: transform;
+    transition-duration: 0.75s;
+    transition-timing-function: $easeOutQuad;
+}
+
 @mixin big_scale_up {
     transform: scale(1.025, 1.025);
     transition-property: transform;
