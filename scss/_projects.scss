@@ -26,8 +26,6 @@
     }
 
     &__control-element {
-        
-
         height: 1.75rem;
         width: 1.75rem;
 
@@ -42,17 +40,21 @@
         @include control_scale_up;
     }
 
-    &__control-arrow{
+    &__control-element--up {}
+
+    &__control-element--down {}
+
+    &__control-arrow {
         width: 1.75rem;
         height: 1.75rem;
     }
 
-    &__control-arrow--up{
+    &__control-arrow--up {
         transform: rotate(0deg);
         cursor: n-resize;
     }
 
-    &__control-arrow--down{
+    &__control-arrow--down {
         transform: rotate(180deg);
         cursor: s-resize;
     }
@@ -95,7 +97,7 @@
         font-weight: 700;
     }
 
-    &__name--short{
+    &__name--short {
         height: 2.625rem;
     }
 
