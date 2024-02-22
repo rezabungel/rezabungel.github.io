@@ -86,6 +86,14 @@
         @include scale_down;
     }
 
+    &__item-animation--up {
+        @include projects__slide-animation--up;
+    }
+
+    &__item-animation--down {
+        @include projects__slide-animation--down;
+    }
+
     &__item:hover {
         @include small_scale_up;
     }

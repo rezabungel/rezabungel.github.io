@@ -39,3 +39,37 @@
     transition-duration: 0.75s;
     transition-timing-function: $easeOutQuad;
 }
+
+@mixin projects__slide-animation--up {
+    animation-name: item-slide-up;
+    animation-duration: 1s;
+    animation-timing-function: $easeOutQuad;
+    animation-fill-mode: forwards;
+}
+
+@mixin projects__slide-animation--down {
+    animation-name: item-slide-down;
+    animation-duration: 1s;
+    animation-timing-function: $easeOutQuad;
+    animation-fill-mode: forwards;
+}
+
+@keyframes item-slide-up {
+    0% {
+        transform: translateY(9.5rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes item-slide-down {
+    0% {
+        transform: translateY(-9.5rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

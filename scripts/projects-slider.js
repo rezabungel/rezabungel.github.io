@@ -34,6 +34,8 @@ function upSlide() {
         if (visibleElementIndexes[i] > slides.length - 1) {
             visibleElementIndexes[i] = 0;
         }
+        slides[visibleElementIndexes[i]].classList.remove('projects__item-animation--down');
+        slides[visibleElementIndexes[i]].classList.add('projects__item-animation--up');
     }
 
     showSlide();
@@ -46,6 +48,8 @@ function downSlide() {
         if (visibleElementIndexes[i] < 0) {
             visibleElementIndexes[i] = slides.length - 1;
         }
+        slides[visibleElementIndexes[i]].classList.remove('projects__item-animation--up');
+        slides[visibleElementIndexes[i]].classList.add('projects__item-animation--down');
     }
 
     showSlide();

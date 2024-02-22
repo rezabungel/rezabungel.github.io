@@ -1,4 +1,44 @@
 @import url(../fonts/Roboto/Roboto.css);
+@-webkit-keyframes item-slide-up {
+  0% {
+    -webkit-transform: translateY(9.5rem);
+            transform: translateY(9.5rem);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+@keyframes item-slide-up {
+  0% {
+    -webkit-transform: translateY(9.5rem);
+            transform: translateY(9.5rem);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+@-webkit-keyframes item-slide-down {
+  0% {
+    -webkit-transform: translateY(-9.5rem);
+            transform: translateY(-9.5rem);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+@keyframes item-slide-down {
+  0% {
+    -webkit-transform: translateY(-9.5rem);
+            transform: translateY(-9.5rem);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
 *,
 *::before,
 *::after {
@@ -393,6 +433,26 @@ body {
           transition-duration: 0.75s;
   -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.projects__item-animation--up {
+  -webkit-animation-name: item-slide-up;
+          animation-name: item-slide-up;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+          animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.projects__item-animation--down {
+  -webkit-animation-name: item-slide-down;
+          animation-name: item-slide-down;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+          animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 .projects__item:hover {
   -webkit-transform: scale(1.008, 1.008);
